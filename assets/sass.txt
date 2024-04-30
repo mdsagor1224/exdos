@@ -1,0 +1,1 @@
+sass --watch "D:\Web Design Envato - Batch\sass-learn\sass\main.scss":"D:\Web Design Envato - Batch\sass-learn\css\style.css"

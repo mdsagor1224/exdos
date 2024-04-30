@@ -1,0 +1,23 @@
+@use '../../utils' as *;
+
+.tp-hero{
+    &-title{
+        color: #fff;
+        font-size: 110px;
+        text-transform: uppercase;
+        margin: 0;
+        & span{
+            background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        & i{
+            color: #B1B4BA;
+            font-size: 30px;
+            font-style: normal;
+            display: inline-block;
+            transform: translateY(-5px);
+        }
+    }
+}

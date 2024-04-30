@@ -1,0 +1,125 @@
+@use '../../utils' as *;
+
+.tp-header-area.tp-transparent-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.tp-main-menu{
+    & ul{
+        & li{
+            display: inline-block;
+            margin-right: 42px;
+            position: relative;
+            & a{
+                color: #fff;
+                font-family: var(--tp-font-heading);
+                font-size: 18px;
+                padding: 36px 0;
+                display: inline-block;
+            }
+            &:hover{
+                & a{
+                    color: var(--tp-theme-color-2);
+                }
+            }
+            & .sub-menu{
+                position: absolute;
+                top: 105%;
+                width: 213px;
+                left: 0;
+                background: #fff;
+                padding: 16px 0;
+                opacity: 0;
+                visibility: hidden;
+                transition: .3s;
+                & li{
+                    margin-right: 0;
+                    display: block;
+                    & a{
+                        color: #000;
+                        display: block;
+                        padding: 4px 25px;
+                        font-size: 17px;
+                    }
+                    & .sub-menu{
+                        left: 100%;
+                        top: 105%;
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                    &:hover{
+                        & > a{
+                            color: #0057FC;
+                        }
+                        & > .sub-menu{
+                            opacity: 1;
+                            visibility: visible;
+                            top: 0;
+                        }
+                    }
+
+                    
+                }
+            }
+
+            &:hover{
+                & a{
+                    color: var(--tp-theme-color-2);
+                }
+                & .sub-menu{
+                    opacity: 1;
+                    visibility: visible;
+                    top: 100%;
+                }
+            }
+
+        }
+    }
+}
+
+
+.tp-header{
+    &-border{
+        border-bottom: 1px solid rgba(255,255,255.15);
+    }
+    &-search{
+        margin-right: 40px;
+    }
+    &-bar{
+        & button{
+            background: #23252D;
+            padding: 37px 25px;
+        }
+    }
+    &-cta{
+        display: flex;
+        align-items: center;
+        padding: 28px 15px;
+        border-left: 1px solid rgba(255,255,255.15);
+        &-icon{
+            margin-right: 15px;
+        }
+        &-text{
+            span{
+            color: #B1B4BA;
+            font-size: 15px;
+            display: block;
+            margin-bottom: 7px;
+            line-height: 1;
+            }
+        }
+        h4{
+            font-size: 18px;
+            color: #fff;
+            margin: 0;
+        }
+    }
+
+    
+}
+
+
+
