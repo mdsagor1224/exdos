@@ -3602,6 +3602,7 @@ textarea {
   left: 0;
   right: 0;
   top: 0;
+  z-index: 2;
 }
 
 .tp-main-menu ul li {
@@ -3664,7 +3665,7 @@ textarea {
 }
 
 .tp-header-border {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .tp-header-search {
   margin-right: 40px;
@@ -3677,7 +3678,7 @@ textarea {
   display: flex;
   align-items: center;
   padding: 28px 15px;
-  border-left: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 .tp-header-cta-icon {
   margin-right: 15px;
@@ -3713,6 +3714,63 @@ textarea {
   font-style: normal;
   display: inline-block;
   transform: translateY(-5px);
+}
+
+.hero-info {
+  color: #B1B4BA;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  width: 204px;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  top: 100px;
+  position: absolute;
+  z-index: 11;
+  left: -50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero-social {
+  transform: rotate(-90deg);
+  display: block ruby;
+}
+
+.hero-info-text {
+  transform: rotate(-90deg);
+  display: block ruby;
+}
+
+.tp-hero-shape-4 {
+  right: 300px;
+  bottom: 130px;
+  z-index: 1;
+}
+
+.tp-hero-shape-5 {
+  right: 192px;
+  top: 300px;
+  z-index: 1;
+}
+
+.tp-hero-shape-2 {
+  left: 380px;
+  top: 280px;
+  z-index: 1;
+}
+
+.tp-hero-shape-1 {
+  top: 370px;
+  left: -50px;
+  z-index: 1;
+}
+
+.tp-hero-shape-3 {
+  left: 59%;
+  top: 34%;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

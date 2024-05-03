@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     top: 0;
+    z-index: 2;
 }
 
 .tp-main-menu{
@@ -83,7 +84,7 @@
 
 .tp-header{
     &-border{
-        border-bottom: 1px solid rgba(255,255,255.15);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
     &-search{
         margin-right: 40px;
@@ -98,7 +99,7 @@
         display: flex;
         align-items: center;
         padding: 28px 15px;
-        border-left: 1px solid rgba(255,255,255.15);
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
         &-icon{
             margin-right: 15px;
         }
