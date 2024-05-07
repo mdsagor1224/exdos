@@ -22,17 +22,17 @@
 }
 
 /*-- Padding Top --*/
-@for $i from 1 through 100 {
+@for $i from 1 through 150 {
     .pt-#{1 * $i}{padding-top: 1px *$i;}
 }
 
 /*-- Padding Bottom --*/
-@for $i from 1 through 100 {
+@for $i from 1 through 150 {
     .pb-#{1 * $i}{padding-bottom: 1px *$i;}
 }
 
 /*-- Padding Left --*/
-@for $i from 1 through 100 {
+@for $i from 1 through 130 {
     .pl-#{1 * $i}{padding-left: 1px *$i;}
 }
 

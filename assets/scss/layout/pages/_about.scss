@@ -1,1 +1,19 @@
 @use '../../utils' as *;
+
+.tp-about-video{
+    &-icon{
+       & a{
+            height: 80px;
+            width: 80px;
+            border: 1px solid #57595C;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 75px;
+            display: inline-block;
+       }
+    }
+    & h4{
+        font-size: 30px;
+        color: #57595C;
+    }
+}
