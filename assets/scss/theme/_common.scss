@@ -42,7 +42,12 @@
 .p-absolute{
 	position: absolute;
 }
-
+.br-5{
+	border-radius: 5px;
+}
+.br-24{
+	border-radius: 24px;
+}
 .tp-black-bg{
 	background-color: var(--tp-common-black);
 }

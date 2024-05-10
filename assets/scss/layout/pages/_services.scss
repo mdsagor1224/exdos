@@ -1,1 +1,63 @@
 @use '../../utils' as *;
+
+.tpservices{
+    border: 1px solid #57595C;
+    padding: 40px;
+    transition: .3s;
+    &__title{
+        font-size: 30px;
+    }
+    &__text{
+        & p{
+
+        }
+    }
+    &__list{
+        & ul{
+            list-style: none;
+            & li{
+                margin-bottom: 5px;
+                color: #57595C;
+                font-size: 17px;
+                &::before{
+                    background-color: #57595C;
+                    content: "";
+                    height: 8px;
+                    width: 8px;
+                    display: inline-block;
+                    border-radius: 30px;
+                    margin-right: 10px;
+                    transform: translateY(-1px);
+                }
+            }
+        }
+    }
+    &:hover{
+        background-color: var(--tp-rom-color);
+        & .tp-sv-btn{
+            background-color: var(--tp-theme-color);
+            color: #fff;
+        }
+    }
+}
+
+.sv-item-margin{
+    .col-xl-3{
+        margin: 0 -1px;
+    }
+}
+.tp-sv-btn{
+    background: var(--tp-rom-color);
+    display: block;
+    padding: 6px 28px;
+    font-size: 18px;
+    font-family: var(--tp-font-heading);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+    & i{
+        transform: rotate(-45deg);
+    }
+
+}

@@ -158,7 +158,7 @@ h4,
 h5,
 h6 {
 	font-family: var(--tp-fonts-muli);
-	color: var(--tp-common-black);
+	color: var(--tp-heading-color);
 	margin-top: 0px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -198,7 +198,7 @@ p {
 	font-family: var(--tp-font-body);
 	font-size: 17px;
 	font-weight: 400;
-	color: var(--tp-text-body);
+	color: var(--tp-body-color);
 	margin-bottom: 15px;
 	line-height: 28px;
 }
