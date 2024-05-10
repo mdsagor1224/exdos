@@ -154,16 +154,22 @@
 
 .tp-btn-sec {
   background: var(--tp-theme-color-2);
-  padding: 21px 48px;
+  padding: 16px 45px;
   font-size: 18px;
   font-family: var(--tp-font-heading);
   border-radius: 5px;
   display: inline-block;
 }
+.tp-btn-sec-lg {
+  padding: 21px 48px;
+}
 
 .tp-section-title {
   font-size: 60px;
   color: #0A0E1A;
+}
+.tp-section-title-white {
+  color: #fff;
 }
 
 * {
@@ -288,15 +294,52 @@ input[type=password],
 input[type=url],
 textarea {
   outline: none;
-  background-color: #fff;
+  background-color: transparent;
   height: 56px;
   width: 100%;
   line-height: 56px;
   font-size: 14px;
   color: var(--tp-common-black);
-  padding-left: 26px;
-  padding-right: 26px;
-  border: 1px solid #E0E2E3;
+  border: 0;
+  border-bottom: 1px solid #57595C;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+input[type=text]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder,
+input[type=password]::-webkit-input-placeholder,
+input[type=url]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #57595C;
+}
+input[type=text]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
+input[type=tel]:-moz-placeholder,
+input[type=number]:-moz-placeholder,
+input[type=password]:-moz-placeholder,
+input[type=url]:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #57595C;
+}
+input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+input[type=tel]::-moz-placeholder,
+input[type=number]::-moz-placeholder,
+input[type=password]::-moz-placeholder,
+input[type=url]::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #57595C;
+}
+input[type=text]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder,
+input[type=number]:-ms-input-placeholder,
+input[type=password]:-ms-input-placeholder,
+input[type=url]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #57595C;
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -391,6 +434,10 @@ textarea {
 
 .tp-black-bg {
   background-color: var(--tp-common-black);
+}
+
+.tp-blue-bg {
+  background-color: var(--tp-theme-color);
 }
 
 /*--
@@ -4320,6 +4367,74 @@ textarea {
 .tp-about-video h4 {
   font-size: 30px;
   color: #57595C;
+}
+
+.tp-about-shape-1 {
+  top: 18%;
+  left: 0;
+  z-index: 1;
+}
+
+.tp-about-shape-2 {
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.tp-about-shape-3 {
+  top: 48%;
+  left: 35%;
+  z-index: 1;
+}
+
+.tp-newsletter-margin {
+  margin-top: -110px;
+}
+.tp-newsletter-bg {
+  padding: 80px;
+  border-radius: 20px;
+}
+.tp-newsletter-box form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tp-newsletter-box input {
+  border-color: #fff;
+  color: #fff;
+}
+.tp-newsletter-box input:focus {
+  border-color: #fff;
+}
+.tp-newsletter-box input::-webkit-input-placeholder {
+  color: #fff;
+}
+.tp-newsletter-box input:-moz-placeholder {
+  color: #fff;
+}
+.tp-newsletter-box input::-moz-placeholder {
+  color: #fff;
+}
+.tp-newsletter-box input:-ms-input-placeholder {
+  color: #fff;
+}
+.tp-newsletter-input {
+  width: calc(100% - 230px);
+}
+.tp-newsletter-input img {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+.tp-newsletter-back {
+  color: #fff;
+  font-size: 100px;
+  opacity: 0.1;
+  position: absolute;
+  left: 40px;
+  bottom: -23px;
+  line-height: 1;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

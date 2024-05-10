@@ -1,0 +1,47 @@
+@use '../../utils' as *;
+
+
+.tp-newsletter{
+    &-margin{
+        margin-top: -110px;
+    }
+    &-bg{
+        padding: 80px;
+        border-radius: 20px;
+    }
+    &-box{
+        & form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        & input{
+            border-color: #fff;
+            color: #fff;
+            &:focus{
+                border-color: #fff;
+            }
+            @include tp-placeholder{
+                color: #fff;
+            }
+        }
+    }
+    &-input{
+        width: calc(100% - 230px);
+        & img{
+            position: absolute;
+            right: 20px;
+            top: 22px;
+        }
+   }
+    &-back{
+        color: #fff;
+        font-size: 100px;
+        opacity: .10;
+        position: absolute;
+        left:40px;
+        bottom: -23px;
+        line-height: 1;
+        margin: 0;
+    }
+}

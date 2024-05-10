@@ -266,19 +266,20 @@ input[type="password"],
 input[type="url"],
 textarea{
 	outline: none;
-	background-color: #fff;
+	background-color: transparent;
 	height: 56px;
 	width: 100%;
 	line-height: 56px;
 	font-size: 14px;
 	color: var(--tp-common-black);
-	padding-left: 26px;
-	padding-right: 26px;
-	border: 1px solid #E0E2E3;
+	border: 0;
+	border-bottom: 1px solid #57595C;
+	text-transform: uppercase;
+	font-weight: 500;
 
-	// @include tp-placeholder{
-	// 	color: #95999D;
-	// }
+	@include tp-placeholder{
+		color: #57595C;
+	}
 
 	&:focus{
 		border-color: var(--tp-common-black);
