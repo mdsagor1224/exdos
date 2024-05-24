@@ -8,16 +8,27 @@
     border-radius: 5px;
     display: inline-block;
     color: #fff;
-}
-
-.tp-btn-sec{
-    background: var(--tp-theme-color-2);
-    padding: 16px 45px;
-    font-size: 18px;
-    font-family: var(--tp-font-heading);
-    border-radius: 5px;
-    display: inline-block;
-    &-lg{
-        padding: 21px 48px;
+    &-sec{
+        background: var(--tp-theme-color-2);
+        padding: 16px 45px;
+        font-size: 18px;
+        font-family: var(--tp-font-heading);
+        border-radius: 5px;
+        display: inline-block;
+        &-lg{
+            padding: 21px 48px;
+        }
+    }
+    &-circle{
+        font-family: var(--tp-font-heading);
+        font-size: 60px;
+        color: #fff;
+        opacity: .3;
+        border: 2px solid rgba(255,255,255, 0.2);
+        padding: 48px 75px;
+        display: inline-block;
+        line-height: 1;
+        border-radius: 100%;
     }
 }
+
