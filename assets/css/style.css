@@ -323,7 +323,7 @@ textarea {
   height: 56px;
   width: 100%;
   line-height: 56px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--tp-common-black);
   border: 0;
   border-bottom: 1px solid #57595C;
@@ -4490,6 +4490,18 @@ textarea {
   bottom: -23px;
   line-height: 1;
   margin: 0;
+}
+
+.fs-100 {
+  font-size: 100px;
+}
+
+.tpform-title {
+  font-size: 30px;
+}
+
+.contact-form-box input, .contact-form-box textarea {
+  border-color: #57595c;
 }
 
 .custom-row {

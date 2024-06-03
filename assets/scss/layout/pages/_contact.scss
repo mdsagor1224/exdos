@@ -1,1 +1,15 @@
 @use '../../utils' as *;
+
+.fs-100{
+    font-size: 100px;
+}
+
+.tpform-title{
+    font-size:30px;
+}
+
+.contact-form-box{
+    & input, & textarea{
+        border-color: #57595c;
+    }
+}
