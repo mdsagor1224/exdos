@@ -59,3 +59,18 @@
 .tp-nblue-bg{
 	background-color: var(--tp-theme-nblue);
 }
+
+.tp-yellow-bg{
+	background-color: var(--tp-theme-color-2);
+}
+
+
+// brand  logo css 
+.tp-slide-transtion {
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+.tp-brand-slide-element {
+	width: auto;
+	display: inline-block;
+}

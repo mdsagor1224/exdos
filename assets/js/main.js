@@ -1,17 +1,6 @@
 (function($){
     "use strict";
 
-    // testimonial slider
-    // var swiper = new Swiper(".tp-testimonial-active", {
-    //     cssMode: true,
-    //     navigation: {
-    //       nextEl: ".tp-swiper-test-button-next",
-    //       prevEl: ".tp-swiper-test-button-prev",
-    //     },
-    //     pagination: {
-    //       el: ".swiper-pagination",
-    //     },
-    //   });
 
     var swiper = new Swiper(".tp-testimonial-active", {
       slidesPerView: 1,
@@ -28,14 +17,22 @@
           prevEl: ".tp-swiper-test-button-prev",
       },
   });
-      // var swiper = new Swiper(".tp-testimonial-active", {
-       
-      //   navigation: {
-      //     nextEl: ".tp-swiper-test-button-next",
-      //     prevEl: "tp-swiper-test-button-prev",
-      //   },
-      // });
 
+
+    // brand slider 
+    var swiper = new Swiper(".tp-brand-top-active", {
+      slidesPerView: 'auto',
+      spaceBetween: 80,
+      freemode: true,
+      centeredSlides: true,
+      loop: true,
+      speed: 4000,
+      allowTouchMove: false,
+      autoplay: {
+          delay: 1,
+          disableOnInteraction: true,
+        },
+  });
 
 
 
