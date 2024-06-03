@@ -35,5 +35,23 @@
   });
 
 
+  // team slider
+
+  var swiper = new Swiper(".tp-team-active", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    keyboard: {
+        enabled: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".tp-swiper-team-button-next",
+        prevEl: ".tp-swiper-team-button-prev",
+    },
+});
+
 
 })(jQuery);

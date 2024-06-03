@@ -468,7 +468,7 @@ textarea {
   background-color: var(--tp-theme-color-2);
 }
 
-.slide-transition {
+.tp-slide-transtion {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
@@ -4544,6 +4544,44 @@ textarea {
 }
 .tp-sv-btn i {
   transform: rotate(-45deg);
+}
+
+.tpteam__thumb img {
+  border-radius: 15px;
+}
+.tpteam__info span {
+  color: #57595C;
+  font-size: 17px;
+}
+.tpteam__info span i {
+  height: 1px;
+  width: 60px;
+  background: #D6D6D1;
+  display: inline-block;
+  transform: translateY(-5px);
+  margin-right: 10px;
+}
+.tpteam__social a {
+  color: #0A0E1A;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.tpteam__title {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.tp-swiper-team-button {
+  display: inline-block;
+}
+
+.tp-team-nav span {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #DBDBDB;
+  border-radius: 100%;
+  margin: 0 10px;
 }
 
 .tp-testimonial-desc {
