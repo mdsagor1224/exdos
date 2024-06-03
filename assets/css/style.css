@@ -131,6 +131,7 @@
   --tp-body-color: #57595C;
   --tp-theme-nblue: #001C52;
   --tp-common-black: #0A0E1A;
+  --tp-cream: #FBF6EF;
   --tp-black: black;
   --tp-white: white;
   --tp-rom-color: #fbf6ef;
@@ -466,6 +467,10 @@ textarea {
 
 .tp-yellow-bg {
   background-color: var(--tp-theme-color-2);
+}
+
+.tp-cream-bg {
+  background-color: var(--tp-cream);
 }
 
 .tp-slide-transtion {
@@ -4630,6 +4635,40 @@ textarea {
 .tp-testimonial-shape-thumb-2 {
   right: 0;
   top: 34px;
+}
+
+.tpaward-wrapper .row .col-md-6:nth-child(even) .tpaward {
+  padding-left: 55px;
+  border-left: 1px solid #57595C;
+}
+.tpaward-wrapper .row .col-md-6:nth-child(1) .tpaward {
+  padding-top: 0;
+}
+.tpaward-wrapper .row .col-md-6:nth-child(2) .tpaward {
+  padding-top: 0;
+}
+.tpaward-wrapper .row .col-md-6:nth-last-child(-n+2) .tpaward {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.tpaward {
+  border-bottom: 1px solid #57595C;
+  padding: 38px 0;
+}
+.tpaward--wrapper {
+  padding-right: 80px;
+}
+.tpaward span {
+  font-family: var(--tp-font-heading);
+  font-size: 20px;
+  color: #57595C;
+  display: block;
+  margin-bottom: 10px;
+}
+.tpaward__title {
+  font-size: 30px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
