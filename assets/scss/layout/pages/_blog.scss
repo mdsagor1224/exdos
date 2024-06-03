@@ -1,0 +1,36 @@
+@use '../../utils' as *;
+
+.tpblog{
+    &__thumb{
+        & img{
+            border-radius: 15px;
+        }
+    }
+    &__content{
+
+    }
+    &__title{
+        font-size: 30px;
+        line-height: 1.25;
+
+    }
+    &__meta{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        & span{
+            font-size: 17px;
+            color: #57595c;
+            & i{
+                margin-right: 5px;
+            }
+        }
+        & cite{
+            width: 2px;
+            height: 16px;
+            background: #57595c;
+            display: inline-block;
+            margin: 0 14px;
+        }
+    }
+}

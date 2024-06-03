@@ -177,6 +177,18 @@
   border-radius: 100%;
 }
 
+.tp-text-btn {
+  font-size: 18px;
+  color: #0a0e1a;
+  font-family: var(--tp-font-heading);
+  display: flex;
+  align-items: center;
+}
+.tp-text-btn i {
+  margin-left: 8px;
+  transform: rotate(-45deg);
+}
+
 .tp-section-title {
   font-size: 60px;
   color: #0A0E1A;
@@ -4480,6 +4492,24 @@ textarea {
   margin: 0;
 }
 
+.custom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tpfact__title {
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.5;
+}
+.tpfact__text span {
+  font-family: var(--tp-font-heading);
+  font-size: 100px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+}
+
 .tp-project-tab button {
   color: #fff;
   font-size: 100px;
@@ -4669,6 +4699,33 @@ textarea {
 .tpaward__title {
   font-size: 30px;
   margin: 0;
+}
+
+.tpblog__thumb img {
+  border-radius: 15px;
+}
+.tpblog__title {
+  font-size: 30px;
+  line-height: 1.25;
+}
+.tpblog__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tpblog__meta span {
+  font-size: 17px;
+  color: #57595c;
+}
+.tpblog__meta span i {
+  margin-right: 5px;
+}
+.tpblog__meta cite {
+  width: 2px;
+  height: 16px;
+  background: #57595c;
+  display: inline-block;
+  margin: 0 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

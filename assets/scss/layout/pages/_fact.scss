@@ -1,1 +1,26 @@
 @use '../../utils' as *;
+
+.custom-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tpfact{
+    &__icon{
+
+    }
+    &__title{
+        font-size: 30px;
+        color: #fff;
+        opacity: .5;
+    }
+    &__text{
+        & span{
+            font-family: var(--tp-font-heading);
+            font-size: 100px;
+            color: #fff;
+            display: inline-block;
+            line-height: 1;
+        }
+    }
+}
