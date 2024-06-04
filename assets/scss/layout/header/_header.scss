@@ -92,7 +92,13 @@
     &-bar{
         & button{
             background: #23252D;
-            padding: 37px 25px;
+            padding: 22px 25px;
+            display: flex;
+            align-items: center;
+            & i{
+                color: #fff;
+                font-size: 60px;
+            }
         }
     }
     &-cta{

@@ -4437,7 +4437,13 @@ textarea {
 }
 .tp-header-bar button {
   background: #23252D;
-  padding: 37px 25px;
+  padding: 22px 25px;
+  display: flex;
+  align-items: center;
+}
+.tp-header-bar button i {
+  color: #fff;
+  font-size: 60px;
 }
 .tp-header-cta {
   display: flex;
