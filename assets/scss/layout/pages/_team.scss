@@ -7,6 +7,9 @@
         }
     }
     &__info{
+        @media #{$xxlm, $xl}{
+            margin-left: 0px;
+        }
         & span{
             color: #57595C;
             font-size: 17px;

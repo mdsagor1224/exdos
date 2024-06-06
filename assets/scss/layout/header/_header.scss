@@ -7,13 +7,26 @@
     top: 0;
     z-index: 2;
 }
-
+.tp-header-area{
+    @media #{$xl}{
+        padding-left: 30px;
+    }
+}
 .tp-main-menu{
+    @media #{$xl}{
+        padding-left: 10px;
+    }
     & ul{
         & li{
             display: inline-block;
             margin-right: 42px;
             position: relative;
+            @media #{$xxlm}{
+                margin-right: 27px;
+            }
+            @media #{$xl}{
+                margin-right: 20px;
+            }
             & a{
                 color: #fff;
                 font-family: var(--tp-font-heading);
@@ -88,6 +101,9 @@
     }
     &-search{
         margin-right: 40px;
+        @media #{$xl}{
+            margin-right: 10px;
+        }
     }
     &-bar{
         & button{
@@ -105,6 +121,9 @@
         display: flex;
         align-items: center;
         padding: 28px 15px;
+        @media #{$xl}{
+            padding: 28px 10px;
+        }
         border-left: 1px solid rgba(255, 255, 255, 0.15);
         &-icon{
             margin-right: 15px;

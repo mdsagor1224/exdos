@@ -423,6 +423,10 @@ textarea {
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 .fix {
   overflow: hidden;
 }
@@ -4370,10 +4374,31 @@ textarea {
   z-index: 2;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-header-area {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-main-menu {
+    padding-left: 10px;
+  }
+}
 .tp-main-menu ul li {
   display: inline-block;
   margin-right: 42px;
   position: relative;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-main-menu ul li {
+    margin-right: 27px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-main-menu ul li {
+    margin-right: 20px;
+  }
 }
 .tp-main-menu ul li a {
   color: #fff;
@@ -4435,6 +4460,11 @@ textarea {
 .tp-header-search {
   margin-right: 40px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-header-search {
+    margin-right: 10px;
+  }
+}
 .tp-header-bar button {
   background: #23252D;
   padding: 22px 25px;
@@ -4450,6 +4480,11 @@ textarea {
   align-items: center;
   padding: 28px 15px;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-header-cta {
+    padding: 28px 10px;
+  }
 }
 .tp-header-cta-icon {
   margin-right: 15px;
@@ -4467,11 +4502,26 @@ textarea {
   margin: 0;
 }
 
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-hero {
+    padding-left: 120px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero {
+    padding-left: 70px;
+  }
+}
 .tp-hero-title {
   color: #fff;
   font-size: 110px;
   text-transform: uppercase;
   margin: 0;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-title {
+    font-size: 80px;
+  }
 }
 .tp-hero-title span {
   background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
@@ -4530,6 +4580,11 @@ textarea {
   left: 380px;
   top: 280px;
   z-index: 1;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-shape-2 {
+    top: 50%;
+  }
 }
 
 .tp-hero-shape-1 {
@@ -4666,12 +4721,18 @@ textarea {
   padding-right: 35px;
   transition: 0.3s;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-project-tab button {
+    font-size: 60px;
+  }
+}
 .tp-project-tab button.active {
   color: var(--tp-theme-color-2);
   border-color: var(--tp-theme-color-2);
 }
 .tp-project-tab-thumb img {
   border-radius: 20px;
+  width: 100%;
 }
 
 .tpservices {
@@ -4729,6 +4790,11 @@ textarea {
 
 .tpteam__thumb img {
   border-radius: 15px;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tpteam__info {
+    margin-left: 0px;
+  }
 }
 .tpteam__info span {
   color: #57595C;
@@ -4798,10 +4864,25 @@ textarea {
   position: absolute;
   left: 100px;
   top: 34%;
+  z-index: 9;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-swiper-test-button {
+    left: 0;
+    top: inherit;
+    bottom: 0;
+  }
 }
 .tp-swiper-test-button-next {
   left: auto;
   right: 100px;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-swiper-test-button-next {
+    bottom: 0;
+    right: inherit;
+    left: 70px;
+  }
 }
 
 .tp-testimonial-shape-thumb-1 {

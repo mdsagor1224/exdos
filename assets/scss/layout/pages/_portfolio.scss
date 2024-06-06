@@ -11,6 +11,9 @@
             padding: 13px 100px;
             padding-right: 35px;
             transition: .3s;
+            @media #{$xxlm, $xl}{
+                font-size: 60px;
+            }
             &.active{
                 color:var(--tp-theme-color-2);
                 border-color: var(--tp-theme-color-2);
@@ -19,8 +22,10 @@
         &-thumb{
             & img{
                 border-radius: 20px;
+                width: 100%;
             }
         }
+       
     }
 
 }

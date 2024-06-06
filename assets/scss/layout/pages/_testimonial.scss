@@ -37,9 +37,20 @@
     position: absolute;
     left: 100px;
     top: 34%;
+    z-index: 9;
+    @media #{$xxlm, $xl}{
+       left: 0;
+       top: inherit;
+       bottom: 0;
+    }
     &-next{
         left: auto;
         right: 100px;
+        @media #{$xxlm, $xl}{
+            bottom: 0;
+            right: inherit;
+            left: 70px;
+         }
     }
 }
 .tp-testimonial-shape-thumb{
