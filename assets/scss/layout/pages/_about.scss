@@ -1,6 +1,25 @@
 @use '../../utils' as *;
 
+.tp-about-box{
+    @media #{$xl}{
+        padding-left: 0px;
+    }
+    @media #{$lg}{
+        padding-left: 0px;
+    }
+}
+.tp-about-img{
+    @media #{$lg}{
+        padding-left: 0px;
+    }
+}
 .tp-about-video{
+    @media #{$xl}{
+        padding-left: 20px;
+    }
+    @media #{$lg}{
+        padding-left: 0px;
+    }
     &-icon{
        & a{
             height: 80px;

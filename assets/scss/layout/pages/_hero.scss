@@ -13,6 +13,9 @@
         @media #{$xl}{
             font-size: 80px;
         }
+        @media #{$lg}{
+            font-size: 75px;
+        }
         text-transform: uppercase;
         margin: 0;
 
@@ -61,6 +64,10 @@
     right: 300px;
     bottom: 130px;
     z-index: 1;
+    @media #{$lg}{
+        right: 100px;
+        bottom: 65px;
+    }
 }
 .tp-hero-shape-5{
     right: 192px;
@@ -84,4 +91,7 @@
     left: 59%;
     top: 34%;
     z-index: 1;
+    @media #{$lg}{
+        left: 40%;
+    }
 }

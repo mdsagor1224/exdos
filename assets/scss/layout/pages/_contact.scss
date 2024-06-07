@@ -2,6 +2,9 @@
 
 .fs-100{
     font-size: 100px;
+    @media #{$xl}{
+        font-size: 80px;
+    }
 }
 
 .tpform-title{

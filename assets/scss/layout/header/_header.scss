@@ -11,6 +11,9 @@
     @media #{$xl}{
         padding-left: 30px;
     }
+    @media #{$lg}{
+        padding-left: 40px;
+    }
 }
 .tp-main-menu{
     @media #{$xl}{

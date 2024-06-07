@@ -10,6 +10,9 @@
         border-radius: 20px;
     }
     &-box{
+        @media #{$lg}{
+           margin-top: 30px;
+        }
         & form{
             display: flex;
             flex-wrap: wrap;
@@ -43,5 +46,9 @@
         bottom: -23px;
         line-height: 1;
         margin: 0;
+        @media #{$xl}{
+            font-size: 80px;
+            left: 40px;
+        }
     }
 }

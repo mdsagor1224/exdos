@@ -2,8 +2,12 @@
 
 .tp-section-title{
     font-size: 60px;
+    @media #{$lg}{
+        font-size: 45px;
+    }
     color: #0A0E1A;
     &-white{
         color: #fff;
     }
+    
 }

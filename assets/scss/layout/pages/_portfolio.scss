@@ -1,5 +1,11 @@
 @use '../../utils' as *;
 
+.tp-project-tab-area{
+    @media #{$lg}{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+}
 .tp-project{
     &-tab{
         & button{
@@ -11,9 +17,21 @@
             padding: 13px 100px;
             padding-right: 35px;
             transition: .3s;
-            @media #{$xxlm, $xl}{
+            @media #{$xxlm}{
                 font-size: 60px;
             }
+            @media #{$xl}{
+                font-size: 60px;
+                padding-left: 40px;
+            }
+            @media #{$lg}{
+                font-size: 50px;
+                padding-left: 30px;
+                width: 100%;
+                text-align: left;
+            }
+
+
             &.active{
                 color:var(--tp-theme-color-2);
                 border-color: var(--tp-theme-color-2);

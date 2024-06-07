@@ -4,6 +4,9 @@
     border: 1px solid #57595C;
     padding: 40px;
     transition: .3s;
+    @media #{$xl}{
+        padding: 40px 30px;
+    }
     &__icon{
         & span{
             font-size: 92px;
@@ -13,6 +16,9 @@
     }
     &__title{
         font-size: 30px;
+        @media #{$xl}{
+            font-size: 28px;
+        }
     }
     &__text{
         & p{
