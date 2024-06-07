@@ -38,6 +38,7 @@
     left: 100px;
     top: 34%;
     z-index: 9;
+    font-size: 52px;
     @media #{$xxlm, $xl}{
        left: 0;
        top: inherit;
@@ -52,6 +53,9 @@
             left: 70px;
          }
     }
+}
+.tp-rot-180{
+    transform: rotate(180deg);
 }
 .tp-testimonial-shape-thumb{
     &-1{

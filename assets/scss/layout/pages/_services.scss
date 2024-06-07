@@ -4,6 +4,13 @@
     border: 1px solid #57595C;
     padding: 40px;
     transition: .3s;
+    &__icon{
+        & span{
+            font-size: 92px;
+            color: var(--tp-black-common);
+            display: inline-flex;
+        }
+    }
     &__title{
         font-size: 30px;
     }

@@ -7,7 +7,11 @@
 
 .tpfact{
     &__icon{
-
+        & span{
+            font-size: 110px;
+            display:inline-flex;
+            color: var(--tp-theme-color-2);
+        }
     }
     &__title{
         font-size: 30px;
