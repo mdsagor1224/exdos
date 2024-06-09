@@ -49,6 +49,9 @@
             @media #{$xl}{
                 font-size: 26px;
             }
+            @media #{$md}{
+                font-size: 22px;
+            }
         }
     }
 }
@@ -57,12 +60,20 @@
     &-3{
         padding-left: 60px;
         position: relative;
-        
+        @media #{$md}{
+            padding-left: 0;
+        }
     }
     &-4{
         padding-left: 35px;
         &:before{
             left: -65px;
+            @media #{$md}{
+                display: none;
+            }
+        }
+        @media #{$md}{
+            padding-left: 0;
         }
     }
     &-3{
@@ -76,10 +87,16 @@
             opacity: .15;
             left: -40px;
             top: 0;
+            @media #{$md}{
+                display: none;
+            }
         }
         &:after{
             left: auto;
             right: 30px;
+        }
+        @media #{$md}{
+            padding-left: 0;
         }
     }
 }
@@ -97,6 +114,8 @@
 }
 .tp-footer-widget-area{
     border-bottom: 1px solid rgb(255, 255, 255, .15);
+    position: relative;
+    z-index: 1;
 }
 .tp-footer-menu{
     & ul{
@@ -105,6 +124,10 @@
             padding-left: 33px;
             margin-left: 33px;
             position: relative;
+            &:first-child{
+                padding-left: 0;
+                margin-left: 0;
+            }
             &::before{
                 content: "";
                 position: absolute;

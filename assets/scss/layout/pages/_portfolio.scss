@@ -3,7 +3,11 @@
 .tp-project-tab-area{
     @media #{$lg}{
         font-size: 50px;
-        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media #{$md}{
+        padding-right: 0;
     }
 }
 .tp-project{
@@ -17,6 +21,8 @@
             padding: 13px 100px;
             padding-right: 35px;
             transition: .3s;
+            text-align: left;
+            width: 100%;
             @media #{$xxlm}{
                 font-size: 60px;
             }
@@ -27,8 +33,10 @@
             @media #{$lg}{
                 font-size: 50px;
                 padding-left: 30px;
-                width: 100%;
-                text-align: left;
+            }
+            @media #{$md}{
+                font-size: 75px;
+                padding-left: 30px;
             }
 
 
@@ -38,12 +46,21 @@
             }
         }
         &-thumb{
+            @media #{$md}{
+                padding: 0 40px;
+            }
             & img{
                 border-radius: 20px;
                 width: 100%;
             }
         }
+        &-content{
+            @media #{$md}{
+                padding-left: 0px;
+            }
+        }
        
     }
+    
 
 }

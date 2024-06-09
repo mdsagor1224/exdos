@@ -7,9 +7,15 @@
     @media #{$lg}{
         padding-left: 0px;
     }
+    @media #{$md}{
+        padding-left: 0px;
+    }
 }
 .tp-about-img{
     @media #{$lg}{
+        padding-left: 0px;
+    }
+    @media #{$md}{
         padding-left: 0px;
     }
 }
@@ -18,6 +24,9 @@
         padding-left: 20px;
     }
     @media #{$lg}{
+        padding-left: 0px;
+    }
+    @media #{$md}{
         padding-left: 0px;
     }
     &-icon{

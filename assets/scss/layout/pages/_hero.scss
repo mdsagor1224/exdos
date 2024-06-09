@@ -16,6 +16,10 @@
         @media #{$lg}{
             font-size: 75px;
         }
+        @media #{$md}{
+            font-size: 52px;
+        }
+
         text-transform: uppercase;
         margin: 0;
 
@@ -73,6 +77,10 @@
     right: 192px;
     top: 300px;
     z-index: 1;
+    @media #{$md}{
+        right: 0px;
+        top: 45%;
+    }
 }
 .tp-hero-shape-2{
     left: 380px;

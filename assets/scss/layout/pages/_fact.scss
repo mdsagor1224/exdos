@@ -3,6 +3,7 @@
 .custom-row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tpfact{
@@ -26,5 +27,11 @@
             display: inline-block;
             line-height: 1;
         }
+    }
+}
+
+.cols{
+    @media #{$md}{
+       width: 50%;
     }
 }

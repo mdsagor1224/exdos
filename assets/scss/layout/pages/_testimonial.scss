@@ -10,6 +10,9 @@
          @media #{$lg}{
             font-size: 60px;
          }
+         @media #{$md}{
+            font-size: 50px;
+         }
     }
     &-name{
         font-size: 30px;
@@ -48,7 +51,7 @@
     top: 34%;
     z-index: 9;
     font-size: 52px;
-    @media #{$xxlm, $xl}{
+    @media #{$xxlm, $xl, $md}{
        left: 0;
        top: inherit;
        bottom: 0;
@@ -59,7 +62,7 @@
     &-next{
         left: auto;
         right: 100px;
-        @media #{$xxlm, $xl}{
+        @media #{$xxlm, $xl, $md}{
             bottom: 0;
             right: inherit;
             left: 70px;

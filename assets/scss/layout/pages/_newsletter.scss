@@ -8,6 +8,10 @@
     &-bg{
         padding: 80px;
         border-radius: 20px;
+        @media #{$md}{
+           padding-left: 40px;
+           padding-right: 40px;
+         }
     }
     &-box{
         @media #{$lg}{
@@ -50,5 +54,9 @@
             font-size: 80px;
             left: 40px;
         }
+        @media #{$md}{
+            font-size: 75px;
+            left: 15px;
+          }
     }
 }

@@ -11,7 +11,7 @@
     @media #{$xl}{
         padding-left: 30px;
     }
-    @media #{$lg}{
+    @media #{$lg, $md}{
         padding-left: 40px;
     }
 }
