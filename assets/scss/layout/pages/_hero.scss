@@ -7,6 +7,12 @@
     @media #{$xl}{
         padding-left: 70px;
     }
+    &-space{
+        @media #{$xs}{
+            padding-top: 180px;
+            padding-bottom: 150px;
+        }
+    }
     &-title{
         color: #fff;
         font-size: 110px;
@@ -18,6 +24,9 @@
         }
         @media #{$md}{
             font-size: 52px;
+        }
+        @media #{$xs}{
+            font-size: 42px;
         }
 
         text-transform: uppercase;
@@ -35,6 +44,9 @@
             font-style: normal;
             display: inline-block;
             transform: translateY(-5px);
+            @media #{$xs}{
+                font-size: 18px;
+            }
         }
     }
 }

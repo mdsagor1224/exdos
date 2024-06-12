@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    @media #{$xs}{
+        justify-content: center;
+     }
 }
 
 .tpfact{
@@ -31,7 +34,7 @@
 }
 
 .cols{
-    @media #{$md}{
+    @media #{$md, $sm}{
        width: 50%;
     }
 }

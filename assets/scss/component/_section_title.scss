@@ -1,6 +1,27 @@
 @use '../utils' as *;
 
+.tp-section-title br {
+    display: none;
+}
+
+.tp-section-title-wrapper{
+    &p{
+        & br{
+            display: none;
+        }
+    }
+}
 .tp-section-title{
+    
+    &-wrapper{
+        & p{
+            & br{
+                @media #{$xs}{
+                    display: none;
+                }
+            }
+        }
+    }
     font-size: 60px;
     @media #{$lg}{
         font-size: 45px;
@@ -8,9 +29,24 @@
     @media #{$md}{
         font-size: 38px;
     }
+
+    @media #{$xs}{
+        font-size: 40px;
+    }
     color: #0A0E1A;
     &-white{
         color: #fff;
     }
+    &-wrapper{
+        & p{
+            & br{
+                @media #{$xs}{
+                    display: none;
+                }
+            }
+        }
+    }
     
 }
+
+

@@ -12,6 +12,9 @@
            padding-left: 40px;
            padding-right: 40px;
          }
+         @media #{$xs}{
+            padding:60px 15px;
+          }
     }
     &-box{
         @media #{$lg}{
@@ -21,6 +24,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            @media #{$xs}{
+                display: block;
+              }
         }
         & input{
             border-color: #fff;
@@ -35,6 +41,10 @@
     }
     &-input{
         width: calc(100% - 230px);
+        @media #{$xs}{
+            width: 100%;
+            margin-bottom: 20px;
+          }
         & img{
             position: absolute;
             right: 20px;

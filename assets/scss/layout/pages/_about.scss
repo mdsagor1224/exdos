@@ -10,40 +10,58 @@
     @media #{$md}{
         padding-left: 0px;
     }
+    @media #{$xs}{
+        padding-left: 0px;
+    }
 }
 .tp-about-img{
+    border-radius: 20px;
     @media #{$lg}{
         padding-left: 0px;
     }
     @media #{$md}{
         padding-left: 0px;
+    }
+}
+
+.tp-about{
+    &-img{
+        border-radius: 20px;
+        @media #{$xs}{
+            margin-bottom: 40px;
+            padding-left: 0;
+
+        }
+    }
+    &-video{
+        @media #{$xl}{
+            padding-left: 20px;
+        }
+        @media #{$lg}{
+            padding-left: 0px;
+        }
+        @media #{$md,$xs}{
+            padding-left: 0px;
+        }
+        &-icon{
+           & a{
+                height: 80px;
+                width: 80px;
+                border: 1px solid #57595C;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 75px;
+                display: inline-block;
+           }
+        }
+        & h4{
+            font-size: 30px;
+            color: #57595C;
+        }
     }
 }
 .tp-about-video{
-    @media #{$xl}{
-        padding-left: 20px;
-    }
-    @media #{$lg}{
-        padding-left: 0px;
-    }
-    @media #{$md}{
-        padding-left: 0px;
-    }
-    &-icon{
-       & a{
-            height: 80px;
-            width: 80px;
-            border: 1px solid #57595C;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 75px;
-            display: inline-block;
-       }
-    }
-    & h4{
-        font-size: 30px;
-        color: #57595C;
-    }
+    
 }
 
 .tp-about-shape-1{
