@@ -48,8 +48,47 @@
                 font-size: 18px;
             }
         }
+        &-2{
+            font-size: 100px;
+        }
+    }
+    &-desc{
+        & p{
+            color: #B1B4BA;
+            font-size: 30px;
+            font-style: normal;
+            display: inline-block;
+            line-height: 1.3;
+            font-family: var(--tp-font-heading);
+            transform: translateY(-5px);
+            margin: 0;
+            margin-right: 60px;
+            @media #{$xs}{
+                font-size: 18px;
+            }
+        }
+    }
+    &-url-bg{
+        width: 30px;
+        height: 65px;
+        background: #fff;
+        opacity: .3;
+        display: inline-block;
+    }
+    &-url-box{
+        & a{
+            display: flex;
+            align-items: center;
+        }
+        & i{
+            color: #B1B4BA;
+            font-size: 52px;
+            display: inline-flex;
+            margin-left: -24px;
+        }
     }
 }
+
 
 .hero-info{
     color: #B1B4BA;
@@ -76,42 +115,55 @@
     transform: rotate(-90deg);
     display: block ruby;
 }
-.tp-hero-shape-4{
-    right: 300px;
-    bottom: 130px;
-    z-index: 1;
-    @media #{$lg}{
-        right: 100px;
-        bottom: 65px;
+.tp-hero{
+    &-shape-4{
+        right: 300px;
+        bottom: 130px;
+        z-index: 1;
+        @media #{$lg}{
+            right: 100px;
+            bottom: 65px;
+        }
     }
-}
-.tp-hero-shape-5{
-    right: 192px;
-    top: 300px;
-    z-index: 1;
-    @media #{$md}{
-        right: 0px;
-        top: 45%;
+    &-shape-5{
+        right: 192px;
+        top: 300px;
+        z-index: 1;
+        @media #{$md}{
+            right: 0px;
+            top: 45%;
+        }
     }
-}
-.tp-hero-shape-2{
-    left: 380px;
-    top: 280px;
-    z-index: 1;
-    @media #{$xl}{
-        top: 50%;
+    &-shape-2{
+        left: 380px;
+        top: 280px;
+        z-index: 1;
+        @media #{$xl}{
+            top: 50%;
+        }
     }
-}
-.tp-hero-shape-1 {
-    top: 370px;
-    left: -50px;
-    z-index: 1;
-}
-.tp-hero-shape-3 {
-    left: 59%;
-    top: 34%;
-    z-index: 1;
-    @media #{$lg}{
-        left: 40%;
+    &-shape-1 {
+        top: 370px;
+        left: -50px;
+        z-index: 1;
     }
+    &-shape-3 {
+        left: 59%;
+        top: 34%;
+        z-index: 1;
+        @media #{$lg}{
+            left: 40%;
+        }
+    }
+
+}
+
+
+.hero-bg-img{
+    position: absolute;
+    width: 43.4%;
+    height: calc(100% - 100px);
+    right: 0;
+    bottom: 0;
+    background-size:cover;
 }
