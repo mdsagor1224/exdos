@@ -1,6 +1,16 @@
 (function($){
     "use strict";
 
+    // popup
+    $('.popup-image').magnificPopup({
+        type: 'image'
+      });
+
+      $('.popup-video').magnificPopup({
+        type: 'iframe'
+      });
+
+
 
     var swiper = new Swiper(".tp-testimonial-active", {
       slidesPerView: 1,

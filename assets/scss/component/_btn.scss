@@ -8,15 +8,63 @@
     border-radius: 5px;
     display: inline-block;
     color: #fff;
-    &-sec{
+    position: relative;
+    overflow: hidden;
+
+    & i{
+        height: 100%;
+        width: 22px;
+        background-color: #71A2FF;
+        position: absolute;
+        bottom: -2px;
+        right: -12px;
+        transform: rotate(12deg);
+        transition: .3s;
+    }
+    &:hover{
+        & .tp-btn-y-1{
+            transform: translateY(-100%);
+        }
+        & .tp-btn-y-2{
+            transform: translateY(0);
+        }
+        & i{
+            right: -100%;
+        }
+        color: #fff;
+    }
+    &-sec{ 
         background: var(--tp-theme-color-2);
         padding: 16px 45px;
         font-size: 18px;
         font-family: var(--tp-font-heading);
         border-radius: 5px;
         display: inline-block;
+        position: relative;
+        overflow: hidden;
         &-lg{
             padding: 21px 48px;
+        }
+        & i{
+            height: 100%;
+            width: 22px;
+            background-color: #E5CF00;
+            position: absolute;
+            bottom: -2px;
+            right: -12px;
+            transform: rotate(12deg);
+            transition: .3s;
+        }
+        &:hover{
+            & .tp-btn-y-1{
+                transform: translateY(-100%);
+            }
+            & .tp-btn-y-2{
+                transform: translateY(0);
+            }
+            & i{
+                right: -100%;
+            }
         }
     }
     &-circle{
@@ -29,10 +77,35 @@
         display: inline-block;
         line-height: 1;
         border-radius: 100%;
+        transition: .3s;
         @media #{$xs}{
             font-size: 40px;
         }
+        &:hover{
+            background: var(--tp-theme-color);
+            color: #fff;
+            border-color: var(--tp-theme-color);
+            opacity: 1;
+        }
     }
+    &-wrap{
+        position: relative;
+        overflow: hidden;
+        display: block;
+        & span{
+            transition: .2s;
+            display: block;
+        }
+    }
+   
+    &-y-2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        transform: translateY(100%);
+    }
+
 }
 
 .tp-text-btn{

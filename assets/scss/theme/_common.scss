@@ -50,6 +50,20 @@ img{
 .br-24{
 	border-radius: 24px;
 }
+
+.br{
+	&-20{
+		& img{
+			border-radius: 20px;
+		}
+	}
+	&-15{
+		& img{
+			border-radius: 15px;
+		}
+	}
+}
+
 .tp-black-bg{
 	background-color: var(--tp-common-black);
 }
