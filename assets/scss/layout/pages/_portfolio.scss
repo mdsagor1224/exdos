@@ -82,3 +82,42 @@
     
 
 }
+
+
+.tpportfolio{
+    position: relative;
+    &__title{
+        font-size: 30px;
+        background: #fff;
+        padding: 12px 20px 12px 20px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    &__thumb{
+
+    }
+    &__text{
+       position: absolute; 
+       bottom: 70px;
+       left: 80px;
+       opacity: 0;
+       transition: .3s;
+       visibility: hidden;
+       & span{
+        background: #fff;
+        padding: 7px 20px 5px 20px;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: inline-block;
+       }
+
+    }
+    &:hover{
+        & .tpportfolio__text{
+            visibility: visible;
+            opacity: 1;
+            bottom: 80px;
+        }
+    }
+}

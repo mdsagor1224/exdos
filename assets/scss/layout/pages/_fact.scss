@@ -31,6 +31,24 @@
             line-height: 1;
         }
     }
+    &-2{
+        & .tpfact{
+            &__icon{
+                & span{
+                    color: #57595c;
+                }
+            }
+            &__text{
+                & span{
+                    color: #0A0E1A;
+                }
+            }
+            &__title{
+                color: #0A0E1A;
+                opacity: 1;
+            }
+        }
+    }
 }
 
 .cols{

@@ -5177,6 +5177,16 @@ img {
   display: inline-block;
   line-height: 1;
 }
+.tpfact-2 .tpfact__icon span {
+  color: #57595c;
+}
+.tpfact-2 .tpfact__text span {
+  color: #0A0E1A;
+}
+.tpfact-2 .tpfact__title {
+  color: #0A0E1A;
+  opacity: 1;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
   .cols {
@@ -5270,6 +5280,38 @@ img {
   .tp-project-tab-content {
     padding-left: 0px;
   }
+}
+
+.tpportfolio {
+  position: relative;
+}
+.tpportfolio__title {
+  font-size: 30px;
+  background: #fff;
+  padding: 12px 20px 12px 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+.tpportfolio__text {
+  position: absolute;
+  bottom: 70px;
+  left: 80px;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+}
+.tpportfolio__text span {
+  background: #fff;
+  padding: 7px 20px 5px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.tpportfolio:hover .tpportfolio__text {
+  visibility: visible;
+  opacity: 1;
+  bottom: 80px;
 }
 
 .tpservices {
@@ -5631,6 +5673,10 @@ img {
   background: #57595c;
   display: inline-block;
   margin: 0 14px;
+}
+
+.tp-video-area {
+  padding: 300px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
