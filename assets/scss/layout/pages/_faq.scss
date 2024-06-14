@@ -1,0 +1,48 @@
+@use '../../utils' as *;
+
+.tpfaq-wrapper{
+    padding: 20px 0;
+}
+.tp-accordion{
+    &-header{
+        margin: 0;
+    }
+    &-item{
+        border: 1px solid #57595c;
+        border-radius: 10px;
+    }
+    &-button{
+        font-size: 20px;
+        width: 100%;
+        padding: 23px 30px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        & span{
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        &.collapsed{
+            & span{
+                transform: rotate(-90deg);
+            }
+        }
+    }
+    &-body{
+        margin: 0 30px;
+        border-top: 1px solid #57595c;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.tpfaq-bg{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: calc(50% - 65px);
+    background-size: cover;
+    border-radius: 0 20px 20px 0;
+}
