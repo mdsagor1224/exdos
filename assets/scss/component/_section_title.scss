@@ -1,8 +1,6 @@
 @use '../utils' as *;
 
-.tp-section-title br {
-    display: none;
-}
+
 
 .tp-section-title-wrapper{
     &p{
@@ -11,42 +9,57 @@
         }
     }
 }
-.tp-section-title{
+.tp-section{
+    &-subtitle{
+        font-weight: 500;
+        font-size: 15px;
+        color: #57595c;
+        display: block;
+        & i{
+            height: 10px;
+            width: 10px;
+            border-radius: 30px;
+            background: var(--tp-theme-color);
+            display: inline-block;
+            margin-right: 8px;
+        }
+    }
+    &-title{
+     &-wrapper{
+            & p{
+                & br{
+                    @media #{$xs}{
+                        display: none;
+                    }
+                }
+            }
+        }
+        font-size: 60px;
+        @media #{$lg}{
+            font-size: 45px;
+        }
+        @media #{$md}{
+            font-size: 38px;
+        }
     
-    &-wrapper{
-        & p{
-            & br{
-                @media #{$xs}{
-                    display: none;
+        @media #{$xs}{
+            font-size: 40px;
+        }
+        color: #0A0E1A;
+        &-white{
+            color: #fff;
+        }
+        &-wrapper{
+            & p{
+                & br{
+                    @media #{$xs}{
+                        display: none;
+                    }
                 }
             }
         }
-    }
-    font-size: 60px;
-    @media #{$lg}{
-        font-size: 45px;
-    }
-    @media #{$md}{
-        font-size: 38px;
-    }
-
-    @media #{$xs}{
-        font-size: 40px;
-    }
-    color: #0A0E1A;
-    &-white{
-        color: #fff;
-    }
-    &-wrapper{
-        & p{
-            & br{
-                @media #{$xs}{
-                    display: none;
-                }
-            }
-        }
+        
     }
     
 }
-
 

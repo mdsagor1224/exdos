@@ -80,3 +80,32 @@
     left: 35%;
     z-index: 1;
 }
+
+.tp-about-content{
+    & ul{
+        & li{
+            list-style: none;
+            margin-bottom: 20px;
+            & i{
+                font-size: 30px;
+                color: #333;
+                margin-right: 10px;
+            }
+            & span{
+                font-size: 30px;
+                font-family: var(--tp-font-heading);
+                line-height: 1.3;
+                color: #0a0e1a;
+            }
+        }
+    }
+}
+
+.tp-about-circle-img{
+    position: absolute;
+    top: 0;
+    right:185px;
+    & img{
+        max-width: inherit;
+    }
+}
