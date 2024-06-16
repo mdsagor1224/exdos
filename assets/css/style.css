@@ -5395,6 +5395,9 @@ img {
   }
 }
 
+.tpteam__thumb {
+  position: relative;
+}
 .tpteam__thumb img {
   border-radius: 15px;
 }
@@ -5402,6 +5405,19 @@ img {
   .tpteam__thumb img {
     width: 100%;
   }
+}
+.tpteam__thumb-2 {
+  margin-left: 10px;
+}
+.tpteam__thumb-border {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -10px;
+  left: -10px;
+  border: 1px solid #57595C;
+  z-index: -1;
+  border-radius: 20px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpteam__info {
@@ -5440,6 +5456,26 @@ img {
   font-size: 25px;
   margin-right: 10px;
 }
+.tpteam__social-2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.tpteam__social-2 a {
+  height: 50px;
+  width: 50px;
+  color: #0A0E1A;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 50px;
+  margin: 0 2px;
+}
 .tpteam__title {
   font-size: 30px;
   margin-bottom: 5px;
@@ -5448,6 +5484,15 @@ img {
   .tpteam__title {
     font-size: 27px;
   }
+}
+.tpteam__subtitle {
+  margin-bottom: 7px;
+  display: block;
+}
+.tpteam:hover .tpteam__social-2 {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
 }
 
 .tp-swiper-team-button {
