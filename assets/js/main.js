@@ -12,6 +12,7 @@
 
 
 
+    // testimonial active
     var swiper = new Swiper(".tp-testimonial-active", {
       slidesPerView: 1,
       spaceBetween: 30,
@@ -27,6 +28,7 @@
           prevEl: ".tp-swiper-test-button-prev",
       },
   });
+
 
 
     // brand slider 

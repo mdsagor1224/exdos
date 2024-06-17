@@ -4,7 +4,7 @@
     - Margin & Padding
 -----------------------------------------*/
 /*-- Margin Top --*/
-@for $i from 1 through 100 {
+@for $i from 1 through 140 {
     .mt-#{1 * $i}{margin-top: 1px * $i;}
 }
 /*-- Margin Bottom --*/
