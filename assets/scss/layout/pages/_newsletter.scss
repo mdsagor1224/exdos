@@ -50,6 +50,12 @@
             right: 20px;
             top: 22px;
         }
+        & i{
+            position: absolute;
+            right: 20px;
+            top: 22px;
+            color: #57595C;
+        }
    }
     &-back{
         color: #fff;
@@ -68,5 +74,21 @@
             font-size: 75px;
             left: 15px;
           }
+    }
+    &-box-2{
+        & input{
+            border-color: #57595C;
+            color: #57595C;
+            &:focus{
+                border-color: #57595C
+            }
+            @include tp-placeholder{
+                color: #57595C;
+            }
+        }
+        & .tp-newsletter-back{
+            opacity: 1;
+            color: #EEEBE6;
+        }
     }
 }

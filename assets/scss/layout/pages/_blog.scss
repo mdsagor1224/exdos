@@ -38,4 +38,29 @@
             margin: 0 14px;
         }
     }
+
+    &-2{
+        border: 1px solid #000;
+        position: relative;
+        border-radius: 15px;
+        .tpblog__thumb{
+            width:200px;
+            flex: 0 0 auto;
+            transform: translateY(-12px);
+            margin-left: -3px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            & img{
+                height: calc(100% + 24px);
+                object-fit: cover;
+            }
+        }
+        & .tpblog__content{
+            padding-left: 228px;
+            padding-top: 23px;
+            padding-bottom: 23px;
+        }
+    }
 }
