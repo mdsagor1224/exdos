@@ -127,6 +127,7 @@
 :root {
   --tp-theme-color: #0057FC;
   --tp-theme-color-2: #FFE815;
+  --tp-theme-orange: #FF5B15;
   --tp-heading-color: #0A0E1A;
   --tp-black-common: #0A0E1A;
   --tp-body-color: #57595C;
@@ -4531,6 +4532,10 @@ img {
   padding-top: 290px;
 }
 
+.pt-210 {
+  padding-top: 210px;
+}
+
 .pt-275 {
   padding-top: 275px;
 }
@@ -4840,6 +4845,18 @@ img {
   visibility: visible;
   top: 100%;
 }
+.tp-main-menu-black ul li a {
+  color: #0A0E1A;
+}
+.tp-main-menu-black ul li a:before {
+  color: var(--tp-theme-orange);
+}
+.tp-main-menu-black ul li:hover a {
+  color: var(--tp-theme-orange);
+}
+.tp-main-menu-black ul li .sub-menu li:hover > a {
+  color: var(--tp-theme-orange);
+}
 
 .tp-header-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -4899,6 +4916,29 @@ img {
 .tp-header-btn {
   display: flex;
   align-items: center;
+}
+.tp-header-right .tp-header-search {
+  color: #0A0E1A;
+  margin-right: 20px;
+}
+.tp-header-right .tp-header-search i {
+  color: #0A0E1A;
+}
+.tp-header-right .tp-header-bar {
+  margin-left: 20px;
+}
+.tp-header-right .tp-header-bar button {
+  background: none;
+  padding: 0;
+}
+.tp-header-right .tp-header-bar button i {
+  color: #0A0E1A;
+}
+
+.tp-header-sep-vr {
+  height: 40px;
+  width: 1px;
+  background: #F2DDD1;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600) {
@@ -4964,6 +5004,14 @@ img {
 .tp-hero-title-2 {
   font-size: 100px;
 }
+.tp-hero-title-black {
+  color: #0A0E1A;
+  font-size: 100px;
+}
+.tp-hero-title-black img {
+  margin-left: 55px;
+  transform: translateY(-10px);
+}
 .tp-hero-desc p {
   color: #B1B4BA;
   font-size: 30px;
@@ -4996,6 +5044,16 @@ img {
   font-size: 52px;
   display: inline-flex;
   margin-left: -24px;
+}
+.tp-hero-black-content {
+  margin-left: 155px;
+  max-width: 488px;
+}
+.tp-hero-img {
+  flex: 0 0 auto;
+}
+.tp-hero-img img {
+  max-width: inherit;
 }
 
 .hero-info {
@@ -5071,6 +5129,18 @@ img {
   .tp-hero-shape-3 {
     left: 40%;
   }
+}
+
+.tp-hero-3-shape-2 {
+  right: 100px;
+  border-radius: 50%;
+  bottom: 55px;
+  z-index: 2;
+}
+.tp-hero-3-shape-1 {
+  right: 60px;
+  top: 137px;
+  z-index: 1;
 }
 
 .hero-bg-img {

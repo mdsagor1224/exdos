@@ -51,6 +51,15 @@
         &-2{
             font-size: 100px;
         }
+
+        &-black{
+            color: #0A0E1A;
+            font-size: 100px;
+            & img{
+                margin-left: 55px;
+                transform: translateY(-10px);
+            }
+        }
     }
     &-desc{
         & p{
@@ -85,6 +94,19 @@
             font-size: 52px;
             display: inline-flex;
             margin-left: -24px;
+        }
+    }
+
+    &-black{
+        &-content{
+            margin-left:155px;
+            max-width: 488px;
+        }
+    }
+    &-img{
+        flex: 0 0 auto;
+        & img{
+            max-width: inherit;
         }
     }
 }
@@ -158,6 +180,19 @@
 
 }
 
+.tp-hero-3-shape{
+    &-2{
+        right: 100px;
+        border-radius: 50%;
+        bottom: 55px;
+        z-index: 2;
+    }
+    &-1{
+        right: 60px;
+        top: 137px;
+        z-index: 1;
+    }
+}
 
 .hero-bg-img{
     position: absolute;
