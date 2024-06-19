@@ -46,3 +46,32 @@
     background-size: cover;
     border-radius: 0 20px 20px 0;
 }
+
+.tp-faq{
+    &-button{
+        text-align: left;
+        font-size: 24px;
+        padding-bottom: 20px;
+        border-bottom: transparent;
+        margin-bottom: 0px;
+        padding-top: 5px;
+        display: block;
+        width: 100%;
+        &:after{
+            content: "-";
+        }
+        &.collapsed{
+            border-bottom: 1px solid #D9D9D9;
+            margin-bottom: 20px;
+            &:after{
+                content: "+";
+            }
+        }
+    }
+}
+.tp-faq-body{
+    border-bottom: transparent;
+}
+.show .tp-faq-body{
+    border-bottom: 1px solid #D9D9D9;
+}

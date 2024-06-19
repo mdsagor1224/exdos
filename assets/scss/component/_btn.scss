@@ -105,6 +105,39 @@
         width: 100%;
         transform: translateY(100%);
     }
+    &-orange{
+        background: var(--tp-theme-orange);
+        padding: 16px 45px;
+        font-size: 18px;
+        font-family: var(--tp-font-heading);
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        & i{
+            height: 100%;
+            width: 22px;
+            background-color: #FFAD8A;
+            position: absolute;
+            bottom: -2px;
+            right: -12px;
+            transform: rotate(12deg);
+            transition: .3s;
+        }
+        &:hover{
+            color: #fff;
+            & .tp-btn-y-1{
+                transform: translateY(-100%);
+            }
+            & .tp-btn-y-2{
+                transform: translateY(0);
+            }
+            & i{
+                right: -100%;
+            }
+        }
+    }
 
 }
 

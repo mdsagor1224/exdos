@@ -15,12 +15,19 @@
         position: relative;
         & img{
             border-radius:15px;
+            width: 100%;
+            transition: .3s;
             @media #{$xs}{
                 width: 100%;
             }
         }
         &-2{
             margin-left: 10px;
+            & > a{
+                display: block;
+                overflow: hidden;
+                border-radius: 20px;
+            }
         }
         &-border{
             position: absolute;
@@ -105,6 +112,11 @@
             opacity: 1;
             visibility: visible;
             top: 50%;
+        }
+        & .tpteam__thumb-2{
+            & img{
+                filter: blur(2px);
+            }
         }
     }
 }

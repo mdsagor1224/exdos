@@ -22,6 +22,10 @@
             background: var(--tp-theme-color);
             display: inline-block;
             margin-right: 8px;
+
+            &.sub-dot-color{
+                background: var(--tp-theme-orange);
+            }
         }
     }
     &-title{

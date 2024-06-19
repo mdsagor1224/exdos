@@ -4,6 +4,7 @@
     border: 1px solid #57595C;
     padding: 40px;
     transition: .3s;
+    margin-right: -1px;
     @media #{$xl}{
         padding: 40px 30px;
     }
@@ -12,6 +13,14 @@
             font-size: 92px;
             color: var(--tp-black-common);
             display: inline-flex;
+            position: relative;
+            z-index: 2;
+        }
+        &-shape{
+            position: absolute;
+            left: 0;
+            top: -6px;
+            z-index: 1;
         }
     }
     &__title{
@@ -52,8 +61,29 @@
             color: #fff;
         }
     }
+    &-2{
+        padding-bottom: 14px;
+        margin-top: -1px;
+        &.tpservices__icon {
+            & span{
+                font-size: 57px;
+                display: inline-flex;
+                margin-left: 25px;
+                color: var(--tp-black-common);
+            }
+        }
+    }
 }
 
+.tpservices__icon_btn{
+    & a{
+        font-size: 45px;
+        display: inline-flex;
+        &:hover{
+            color: var(--tp-theme-orange);
+        }
+    }
+}
 .sv-item-margin{
     .col-xl-3{
         margin: 0 -1px;
