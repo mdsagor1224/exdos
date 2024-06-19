@@ -1,0 +1,16 @@
+@use '../../utils' as *;
+
+.tp-brand{
+    &-area{
+        background: linear-gradient(90deg, rgba(183,80,72,1) 0%, rgba(41,86,215,1) 50%, rgba(183,80,72,1) 100%);
+        
+    }
+    &-title{
+        & h3{
+            font-size: 100px;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 0;
+        }
+    }
+}

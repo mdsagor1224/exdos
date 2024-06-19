@@ -1,0 +1,38 @@
+@use '../../utils' as *;
+
+.tpprocess{
+    &-border{
+        border: 1px solid #57595C;
+        border-radius: 166px;
+    }
+    &__step{
+        & span{
+            padding: 4px 24px;
+            background-color: var(--tp-theme-orange);
+            color: #fff;
+            border-radius: 30px;
+        }
+    }
+    &:hover{
+        & .tpprocess__step{
+            & span{
+                background-color: var(--tp-theme-color);
+            }
+        }
+    }
+    &__title{
+        font-size: 30px;
+    }
+    &__icon{
+        & span{
+            font-size: 85px;
+            background: #FFE9C9;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            text-align: center;
+            line-height: 175px;
+            border-radius: 100%;
+        }
+    }
+}

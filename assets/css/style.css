@@ -6236,4 +6236,41 @@ img {
   border-bottom: 1px solid #D9D9D9;
 }
 
+.tp-brand-area {
+  background: linear-gradient(90deg, rgb(183, 80, 72) 0%, rgb(41, 86, 215) 50%, rgb(183, 80, 72) 100%);
+}
+.tp-brand-title h3 {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.tpprocess-border {
+  border: 1px solid #57595C;
+  border-radius: 166px;
+}
+.tpprocess__step span {
+  padding: 4px 24px;
+  background-color: var(--tp-theme-orange);
+  color: #fff;
+  border-radius: 30px;
+}
+.tpprocess:hover .tpprocess__step span {
+  background-color: var(--tp-theme-color);
+}
+.tpprocess__title {
+  font-size: 30px;
+}
+.tpprocess__icon span {
+  font-size: 85px;
+  background: #FFE9C9;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  line-height: 175px;
+  border-radius: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

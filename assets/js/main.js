@@ -1,6 +1,11 @@
 (function($){
     "use strict";
 
+    // data bg-color
+    $("[data-bg-color]").each(function(){
+        $(this).css("background-color", $(this).attr("data-bg-color"))
+    })
+
     // popup
     $('.popup-image').magnificPopup({
         type: 'image'
@@ -46,6 +51,20 @@
         },
   });
 
+      // Home 3 brand slider 
+      var swiper = new Swiper(".tp-brand-title-active", {
+        slidesPerView: 'auto',
+        spaceBetween: 40,
+        freemode: true,
+        centeredSlides: true,
+        loop: true,
+        speed: 4000,
+        allowTouchMove: false,
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: true,
+          },
+    });
 
   // team slider
 
