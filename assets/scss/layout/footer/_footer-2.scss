@@ -1,1 +1,92 @@
 @use '../../utils' as *;
+
+
+.tp-footer-widget-title-white{
+    color: #0A0E1A;
+}
+
+.tp-footer-newsletter{
+    position: relative;
+    & button{
+        position: absolute;
+        right: 0;
+        bottom: 13px;
+        color: #57595C;
+    }
+}
+
+.tpfooter-social{
+    & a{
+        font-size: 20px;
+        margin-right: 10px;
+        color: #57595C;
+    }
+}
+
+
+
+.tp-footer-newsletter{
+    & input{
+        margin-bottom: 10px;
+    }
+    .form-check-label {
+        font-size: 15px;
+        color: #57595C;
+        line-height: 1;
+    }
+    
+    .form-check .form-check-input{
+        transform: translateY(2px);
+    }
+}
+
+.tp-footer-2-col-2{
+    padding-left: 100px;
+}
+
+.tp-footer-widget-2{
+    & ul{
+        & li{
+            & a{
+                color: #57595C;
+            }
+        }
+    }
+
+    & .tp-footer-contact-item{
+        & span{
+            color: #57595C;
+        }
+        & h4{
+            color: #0A0E1A;
+        }
+    }
+    & .footer-content span{
+        color: #57595C;
+        font-size: 17px;
+    }
+}
+
+
+.tp-footer-2-col-2{
+    padding-left: 80px;
+}
+
+.tp-footer-2-col-3{
+    padding-left: 40px;
+}
+
+.tp-footer-2-col-4{
+    padding-left: 70px;
+}
+
+
+.tp-footer-copyright-area-2{
+    .tp-footer-copyright{
+        color: #57595C;
+    }
+}
+
+.tp-footer-widget-area-border{
+    border-bottom: 1px solid #57595C;
+}

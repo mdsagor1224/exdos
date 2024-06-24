@@ -1,10 +1,27 @@
 (function($){
     "use strict";
 
+
+    // data bg-img
+    // $("[data-background]").each(function(){
+    //     $(this).css("background-image", "url("+ $(this).attr(data-background)")")
+    // })
+
+    $("[data-background]").each(function (){
+        $(this).css("background-image", "url(" + $($this).attr("data-background")+ ")")
+    })
+
     // data bg-color
     $("[data-bg-color]").each(function(){
         $(this).css("background-color", $(this).attr("data-bg-color"))
     })
+
+    // data -color
+    $("[data-color]").each(function(){
+        $(this).css("color", $(this).attr("data-color"))
+    })
+
+
 
     // popup
     $('.popup-image').magnificPopup({
