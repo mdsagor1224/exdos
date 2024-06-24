@@ -1,0 +1,47 @@
+@use '../../utils' as *;
+
+.tpprice{
+    border-radius: 20px;
+    &__icon{
+        position: relative;
+        margin-bottom: 4px;
+        span{
+            font-size: 115px;
+            position: relative;
+            z-index: 1;
+        }
+        &-shape{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    &__price{
+        & h4{
+            font-size: 70px;
+        }
+    }
+    &__title{
+        font-size: 30px;
+    }
+    &__features{
+        list-style: none;
+        & li{
+            color: #57595C;
+            margin-bottom: 10px;
+            & i{
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            & span{
+                font-size: 17px;
+            }
+        }
+    }
+    &__sep{
+        border-top: 1px solid #57595C;
+        margin-top: 22px;
+        margin-bottom: 23px;
+    }
+}
+

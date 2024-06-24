@@ -6287,6 +6287,17 @@ img {
   margin: 0;
 }
 
+.tp-brand-item-border {
+  border: 1px solid #57595C;
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  border-radius: 10px;
+}
+
 .tpprocess-border {
   border: 1px solid #57595C;
   border-radius: 166px;
@@ -6312,6 +6323,49 @@ img {
   text-align: center;
   line-height: 175px;
   border-radius: 100%;
+}
+
+.tpprice {
+  border-radius: 20px;
+}
+.tpprice__icon {
+  position: relative;
+  margin-bottom: 4px;
+}
+.tpprice__icon span {
+  font-size: 115px;
+  position: relative;
+  z-index: 1;
+}
+.tpprice__icon-shape {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tpprice__price h4 {
+  font-size: 70px;
+}
+.tpprice__title {
+  font-size: 30px;
+}
+.tpprice__features {
+  list-style: none;
+}
+.tpprice__features li {
+  color: #57595C;
+  margin-bottom: 10px;
+}
+.tpprice__features li i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.tpprice__features li span {
+  font-size: 17px;
+}
+.tpprice__sep {
+  border-top: 1px solid #57595C;
+  margin-top: 22px;
+  margin-bottom: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
