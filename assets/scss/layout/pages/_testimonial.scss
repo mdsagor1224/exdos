@@ -25,7 +25,13 @@
             font-size: 42px;
             color: var(--tp-theme-color-2);
         }
+        &-black{
+            font-size: 40px;
+            color: #0A0E1A;
+        }
     }
+
+
     &-name{
         font-size: 30px;
         margin-bottom: 5px;
@@ -48,10 +54,19 @@
         &-name{
             font-size: 30px;
             color: #fff;
+            &-black{
+                color: #0A0E1A;
+            }
         }
         &-desig{
             font-size: 17px;
             color: #fff;
+            &-black{
+                color: #0A0E1A;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
         }
     }
     &-main-wrapper{
@@ -162,5 +177,28 @@
         border-radius: 100%;
         margin: 0 10px;
         opacity: .5;
+    }
+}
+
+.tp-testimonial-bg-color{
+    position: absolute;
+    background: #FF8653;
+    width: 408px;
+    height: 350px;
+    bottom: 0;
+    border-radius: 180px 180px 80px 80px;
+    z-index: -1;
+}
+
+
+
+.tp-testimonial-quote{
+    float: left;
+}
+
+.tp-test-slider-arrow-3{
+    & .tp-swiper-test-2-button{
+        color: #57595c;
+        z-index: 1;
     }
 }
