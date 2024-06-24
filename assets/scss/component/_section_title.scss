@@ -15,6 +15,9 @@
         font-size: 15px;
         color: #57595c;
         display: block;
+        &-white{
+            color: #A3AEC3;
+        }
         & i{
             height: 10px;
             width: 10px;
@@ -63,6 +66,12 @@
             }
         }
         
+    }
+    &-title-content-white{
+        color: #A3AEC3;
+        & b{
+            color: #fff;
+        }
     }
     
 }
