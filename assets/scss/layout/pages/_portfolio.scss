@@ -161,3 +161,31 @@
         line-height: 50px;
     }
 }
+
+
+.tpproject{
+    &-bg{
+        background-color: #D6F0FF;
+        padding: 20px;
+    }
+    &__thumb{
+
+    }
+    &__title{
+        font-size: 30px;
+        margin: 0;
+    }
+    &__meta{
+        margin-bottom: 5px;
+        & span{
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #57595C;
+            font-weight: 500;
+        }
+    }
+}
+
+.tp-project-active-margin{
+    margin: 0 -100px;
+}
