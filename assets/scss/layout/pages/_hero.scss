@@ -202,3 +202,39 @@
     bottom: 0;
     background-size:cover;
 }
+
+.ml-m-7{
+    margin-left: -7px;
+}
+
+.hero-circle-shape{
+    height: 717px;
+    width:717px;
+    top: 150px;
+    left: -100px;
+    background: #FFE6CE;
+    border-radius: 100%;
+}
+
+.tp-el-shape{
+    right: 0;
+    bottom: 0;
+    & img{
+        width: 95%;
+    }
+}
+
+.hero-social-4{
+    position: absolute;
+    display: flex;
+    transform: rotate(-90deg);
+    font-size: 17px;
+    color: #0A0E1A;
+    top: 49%;
+    left: 0;
+    font-weight: 500;
+    & span{
+        display: inline-block;
+        margin: 0 3px;
+    }
+}
