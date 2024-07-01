@@ -68,6 +68,11 @@
             }
         }
     }
+    &-thumb{
+        img{
+            max-width: inherit;
+        }
+    }
 }
 .tp-faq-body{
     border-bottom: transparent;

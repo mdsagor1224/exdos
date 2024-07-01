@@ -676,6 +676,10 @@ img {
   background-color: var(--tp-common-black);
 }
 
+.tp-bg-white {
+  background: #fff;
+}
+
 .tp-blue-bg {
   background-color: var(--tp-theme-color);
 }
@@ -5660,6 +5664,21 @@ img {
 .tpfact-2 .tpfact__icon span {
   color: #57595c;
 }
+.tpfact-2 .tpfact__icon-2 {
+  position: relative;
+}
+.tpfact-2 .tpfact__icon-2 span {
+  color: var(--tp-theme-orange);
+}
+.tpfact-2 .tpfact__icon-2:after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 1px;
+  background-color: #d9d9d9;
+  right: 0;
+  top: 11px;
+}
 .tpfact-2 .tpfact__text span {
   color: #0A0E1A;
 }
@@ -5943,6 +5962,11 @@ img {
 .tpservices-4-spacing {
   padding-top: 50px;
   padding-bottom: 30px;
+}
+
+.tp-services-bg-area {
+  background-color: #D6F0FF;
+  border-radius: 140px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -6477,6 +6501,9 @@ img {
 }
 .tp-faq-button.collapsed:after {
   content: "+";
+}
+.tp-faq-thumb img {
+  max-width: inherit;
 }
 
 .tp-faq-body {
