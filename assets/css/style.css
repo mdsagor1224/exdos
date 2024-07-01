@@ -5987,7 +5987,6 @@ img {
 }
 .tpteam__thumb img {
   border-radius: 15px;
-  width: 100%;
   transition: 0.3s;
 }
 @media (max-width: 767px) {
@@ -6012,6 +6011,26 @@ img {
   border: 1px solid #57595C;
   z-index: -1;
   border-radius: 20px;
+}
+.tpteam__thumb-bg {
+  height: 384px;
+  width: 100%;
+  background-color: #FFE9C9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 140px 140px 0 0;
+}
+.tpteam__thumb-bg-border {
+  height: 384px;
+  border: 1px solid #57595C;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 1;
+  border-radius: 140px 140px 0 0;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpteam__info {

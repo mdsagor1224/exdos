@@ -15,7 +15,6 @@
         position: relative;
         & img{
             border-radius:15px;
-            width: 100%;
             transition: .3s;
             @media #{$xs}{
                 width: 100%;
@@ -39,7 +38,28 @@
             z-index: -1;
             border-radius: 20px;
         }
+        &-bg{
+            height: 384px;
+            width: 100%;
+            background-color: #FFE9C9;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 140px 140px 0 0;
+            &-border{
+                height: 384px;
+                border: 1px solid #57595C;
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                right: 10px;
+                z-index: 1;
+                border-radius: 140px 140px 0 0;
+            }
+        }
     }
+
     &__info{
         @media #{$xxlm, $xl}{
             margin-left: 0px;
