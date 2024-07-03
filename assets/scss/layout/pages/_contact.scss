@@ -19,3 +19,34 @@
         border-color: #57595c;
     }
 }
+
+
+.tp-contact-img{
+    & img{
+        max-width: inherit;
+        margin-left: -40px;
+    }
+}
+
+.tp-contact-form-box{
+    & input, & textarea{
+        height: 60px;
+        border: 1px solid #57595C;
+        padding: 0 25px;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+    & .p-relative{
+        & i{
+            position: absolute;
+            right: 25px;
+            top: 22px;
+        }
+    }
+    & textarea{
+        height: 160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}

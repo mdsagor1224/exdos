@@ -66,6 +66,9 @@ img{
 	&-140{
 		border-radius: 140px;
 	}
+	&-150{
+		border-radius: 150px;
+	}
 }
 
 .tp-black-bg{
@@ -95,11 +98,18 @@ img{
 .tp-upper{
 	text-transform: uppercase;
 }
+.tp-cap{
+	text-transform: capitalize;
+}
 .bg-pos-end{
 	background-image: end;
 }
 .tp-theme-black-bg{
 	background-color: var(--tp-heading-color);
+}
+
+.tp-color-orange{
+	color: var(--tp-theme-orange);
 }
 // brand  logo css 
 .tp-slide-transtion {

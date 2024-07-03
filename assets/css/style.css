@@ -600,12 +600,14 @@ textarea {
   color: var(--tp-common-black);
   font-size: 14px;
   opacity: 1;
+  font-weight: 500;
 }
 
 *::placeholder {
   color: var(--tp-common-black);
   font-size: 14px;
   opacity: 1;
+  font-weight: 500;
 }
 
 .w-img img {
@@ -674,6 +676,9 @@ img {
 .br-140 {
   border-radius: 140px;
 }
+.br-150 {
+  border-radius: 150px;
+}
 
 .tp-black-bg {
   background-color: var(--tp-common-black);
@@ -707,12 +712,20 @@ img {
   text-transform: uppercase;
 }
 
+.tp-cap {
+  text-transform: capitalize;
+}
+
 .bg-pos-end {
   background-image: end;
 }
 
 .tp-theme-black-bg {
   background-color: var(--tp-heading-color);
+}
+
+.tp-color-orange {
+  color: var(--tp-theme-orange);
 }
 
 .tp-slide-transtion {
@@ -4648,6 +4661,10 @@ img {
   padding-bottom: 140px;
 }
 
+.tp-section-m-100 {
+  margin: 0 100px;
+}
+
 .footer-sep {
   background-color: #fff;
   opacity: 0.15;
@@ -5636,6 +5653,29 @@ img {
   border-color: #57595c;
 }
 
+.tp-contact-img img {
+  max-width: inherit;
+  margin-left: -40px;
+}
+
+.tp-contact-form-box input, .tp-contact-form-box textarea {
+  height: 60px;
+  border: 1px solid #57595C;
+  padding: 0 25px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.tp-contact-form-box .p-relative i {
+  position: absolute;
+  right: 25px;
+  top: 22px;
+}
+.tp-contact-form-box textarea {
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .custom-row {
   display: flex;
   justify-content: space-between;
@@ -6414,6 +6454,46 @@ img {
   .tpblog__content {
     padding-left: 0;
   }
+}
+.tpblog__content-meta {
+  width: 55px;
+  height: 170px;
+  background: #FFE4FB;
+  text-align: center;
+  padding: 8px 0px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex: 0 0 auto;
+  border-radius: 10px;
+}
+.tpblog__content-meta span {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tpblog__content-meta span cite {
+  position: absolute;
+  width: 130px;
+  transform: rotate(-90deg);
+  left: -39px;
+  bottom: 97px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.tpblog__content-meta i {
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 42px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #57595C;
+  border-radius: 10px;
 }
 .tpblog__title {
   font-size: 30px;
