@@ -671,6 +671,9 @@ img {
 .br-15 img {
   border-radius: 15px;
 }
+.br-140 {
+  border-radius: 140px;
+}
 
 .tp-black-bg {
   background-color: var(--tp-common-black);
@@ -6334,6 +6337,16 @@ img {
 .tp-test-slider-arrow-3 .tp-swiper-test-2-button {
   color: #57595c;
   z-index: 1;
+}
+
+.tp-testimonial-thumb-active .swiper-slide img {
+  transform: scale(0.7);
+}
+.tp-testimonial-thumb-active .swiper-slide.swiper-slide-active {
+  position: relative;
+}
+.tp-testimonial-thumb-active .swiper-slide.swiper-slide-active img {
+  transform: scale(1);
 }
 
 .tpaward-wrapper .row .col-md-6:nth-child(even) .tpaward {

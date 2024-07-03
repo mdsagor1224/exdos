@@ -202,3 +202,30 @@
         z-index: 1;
     }
 }
+
+.tp-testimonial-thumb-active{
+    & .swiper-slide{
+        & img{
+            transform: scale(.7);
+        }
+        &.swiper-slide-active{
+            & img{
+                transform: scale(1);
+            }
+            position: relative;
+            // &:before, &:after{
+            //     content: "";
+            //     width: 44px;
+            //     height: 1px;
+            //     background-color: #D6CCB7;
+            //     position: absolute;
+            //     left: -33px;
+            //     top: 50%;
+            // }
+            // &:after{
+            //     left: auto;
+            //     right: -33px;
+            // }
+        }
+    }
+}

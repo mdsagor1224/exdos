@@ -51,6 +51,26 @@
       },
   });
 
+ // testimonial with thumb Slider
+  var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    centeredSlides:true,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper_content = new Swiper(".tp-testimonial-content-active", {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper_thumb,
+    },
+  });
 
 
     // brand slider 
