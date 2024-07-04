@@ -21,6 +21,9 @@
         margin-right: 10px;
         color: #57595C;
     }
+    &-2 a{
+        color: #B1B4BA;
+    }
 }
 
 
@@ -37,6 +40,21 @@
     
     .form-check .form-check-input{
         transform: translateY(2px);
+    }
+    &-2 {
+        & .form-check-label{
+            color: #B1B4BA;
+        }
+        & .form-check input{
+            border: 1px solid #545454;
+            --bs-form-check-bg: none;
+        }
+        & input{
+            color: #fff;
+            @include tp-placeholder(){
+                color: #B1B4BA;
+            }
+        }
     }
 }
 
@@ -79,7 +97,14 @@
 .tp-footer-2-col-4{
     padding-left: 70px;
 }
-
+.tp-footer-4-col{
+    &-2{
+        padding-left: 50px;
+    }
+    &-3{
+        padding-left: 50px;
+    }
+}
 
 .tp-footer-copyright-area-2{
     .tp-footer-copyright{

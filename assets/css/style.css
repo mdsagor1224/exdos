@@ -4860,6 +4860,9 @@ img {
   margin-right: 10px;
   color: #57595C;
 }
+.tpfooter-social-2 a {
+  color: #B1B4BA;
+}
 
 .tp-footer-newsletter input {
   margin-bottom: 10px;
@@ -4871,6 +4874,28 @@ img {
 }
 .tp-footer-newsletter .form-check .form-check-input {
   transform: translateY(2px);
+}
+.tp-footer-newsletter-2 .form-check-label {
+  color: #B1B4BA;
+}
+.tp-footer-newsletter-2 .form-check input {
+  border: 1px solid #545454;
+  --bs-form-check-bg: none;
+}
+.tp-footer-newsletter-2 input {
+  color: #fff;
+}
+.tp-footer-newsletter-2 input::-webkit-input-placeholder {
+  color: #B1B4BA;
+}
+.tp-footer-newsletter-2 input:-moz-placeholder {
+  color: #B1B4BA;
+}
+.tp-footer-newsletter-2 input::-moz-placeholder {
+  color: #B1B4BA;
+}
+.tp-footer-newsletter-2 input:-ms-input-placeholder {
+  color: #B1B4BA;
 }
 
 .tp-footer-2-col-2 {
@@ -4901,6 +4926,13 @@ img {
 
 .tp-footer-2-col-4 {
   padding-left: 70px;
+}
+
+.tp-footer-4-col-2 {
+  padding-left: 50px;
+}
+.tp-footer-4-col-3 {
+  padding-left: 50px;
 }
 
 .tp-footer-copyright-area-2 .tp-footer-copyright {
@@ -6645,6 +6677,19 @@ img {
   margin-right: -1px;
   margin-bottom: -1px;
   border-radius: 10px;
+}
+
+.brand-section-title {
+  border-bottom: 1px solid #373737;
+}
+.brand-section-title h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 0;
+  background: #1a1a1a;
+  display: inline-block;
+  transform: translateY(19px);
+  padding: 0 30px;
 }
 
 .tpprocess-border {

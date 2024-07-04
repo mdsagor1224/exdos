@@ -26,3 +26,18 @@
     margin-bottom: -1px;
     border-radius: 10px;
 }
+
+
+
+.brand-section-title{
+    border-bottom: 1px solid #373737;
+    & h2{
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 0;
+        background: #1a1a1a;
+        display: inline-block;
+        transform: translateY(19px);
+        padding: 0 30px;
+    }
+}
