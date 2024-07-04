@@ -222,6 +222,11 @@
     & img{
         width: 95%;
     }
+    &-5{
+        & img{
+            width: 98%;
+        }
+    }
 }
 
 .hero-social-4{
@@ -236,5 +241,20 @@
     & span{
         display: inline-block;
         margin: 0 3px;
+    }
+}
+
+.tp-hero-star-shape{
+    &-1{
+        left: 65px;
+        top: 270px;
+    }
+    &-2{
+        left: 40%;
+        top: 177px;
+    }
+    &-3{
+        left: 46%;
+        bottom: 106px;
     }
 }

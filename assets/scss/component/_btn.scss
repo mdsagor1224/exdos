@@ -10,8 +10,7 @@
     color: #fff;
     position: relative;
     overflow: hidden;
-
-    & i{
+   & > i{
         height: 100%;
         width: 22px;
         background-color: #71A2FF;
@@ -45,7 +44,7 @@
         &-lg{
             padding: 21px 48px;
         }
-        & i{
+        & > i{
             height: 100%;
             width: 22px;
             background-color: #E5CF00;
@@ -95,6 +94,11 @@
         & span{
             transition: .2s;
             display: block;
+            & i{
+                font-size: 15px;
+                transform: rotate(-45deg);
+                margin-left: 5px;
+            }
         }
     }
    
@@ -123,7 +127,7 @@
         position: relative;
         overflow: hidden;
         color: #fff;
-        & i{
+        & > i{
             height: 100%;
             width: 22px;
             background-color: #FFAD8A;
@@ -145,6 +149,9 @@
                 right: -100%;
             }
         }
+    }
+    &-200{
+        padding: 16px 35px;
     }
 
 }

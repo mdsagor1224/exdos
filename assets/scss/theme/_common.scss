@@ -71,6 +71,11 @@ img{
 	}
 }
 
+.tp-fs{
+	&-30{
+		font-size: 30px;
+	}
+}
 .tp-black-bg{
 	background-color: var(--tp-common-black);
 }

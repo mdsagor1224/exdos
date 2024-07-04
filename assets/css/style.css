@@ -162,7 +162,7 @@
   position: relative;
   overflow: hidden;
 }
-.tp-btn i {
+.tp-btn > i {
   height: 100%;
   width: 22px;
   background-color: #71A2FF;
@@ -197,7 +197,7 @@
 .tp-btn-sec-lg {
   padding: 21px 48px;
 }
-.tp-btn-sec i {
+.tp-btn-sec > i {
   height: 100%;
   width: 22px;
   background-color: #E5CF00;
@@ -248,6 +248,11 @@
   transition: 0.2s;
   display: block;
 }
+.tp-btn-wrap span i {
+  font-size: 15px;
+  transform: rotate(-45deg);
+  margin-left: 5px;
+}
 .tp-btn-y-2 {
   position: absolute;
   left: 0;
@@ -274,7 +279,7 @@
   overflow: hidden;
   color: #fff;
 }
-.tp-btn-orange i {
+.tp-btn-orange > i {
   height: 100%;
   width: 22px;
   background-color: #FFAD8A;
@@ -295,6 +300,9 @@
 }
 .tp-btn-orange:hover i {
   right: -100%;
+}
+.tp-btn-200 {
+  padding: 16px 35px;
 }
 
 .tp-text-btn {
@@ -403,7 +411,7 @@ body {
   font-family: var(--tp-fonts-poppins);
   font-size: 14px;
   font-weight: normal;
-  color: var(--tp-black);
+  color: var(--tp-body-color);
   line-height: 26px;
 }
 
@@ -678,6 +686,10 @@ img {
 }
 .br-150 {
   border-radius: 150px;
+}
+
+.tp-fs-30 {
+  font-size: 30px;
 }
 
 .tp-black-bg {
@@ -5387,6 +5399,9 @@ img {
 .tp-el-shape img {
   width: 95%;
 }
+.tp-el-shape-5 img {
+  width: 98%;
+}
 
 .hero-social-4 {
   position: absolute;
@@ -5401,6 +5416,19 @@ img {
 .hero-social-4 span {
   display: inline-block;
   margin: 0 3px;
+}
+
+.tp-hero-star-shape-1 {
+  left: 65px;
+  top: 270px;
+}
+.tp-hero-star-shape-2 {
+  left: 40%;
+  top: 177px;
+}
+.tp-hero-star-shape-3 {
+  left: 46%;
+  bottom: 106px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
