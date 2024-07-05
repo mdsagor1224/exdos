@@ -114,3 +114,17 @@
     background-color: #D6F0FF;
     border-radius: 140px;
 }
+
+.tpsvtab{
+    &__num{
+        margin-top: 13px;
+    }
+    &__title{
+        font-size: 100px;
+    }
+    &__content{
+         & p{
+            color: #B1B4BA;
+         }
+    }
+}

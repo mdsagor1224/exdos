@@ -703,6 +703,10 @@ img {
   background: #fff;
 }
 
+.tp-text-white {
+  color: #fff;
+}
+
 .tp-blue-bg {
   background-color: var(--tp-theme-color);
 }
@@ -4680,6 +4684,11 @@ img {
   margin: 0 100px;
 }
 
+.plr-100 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .footer-sep {
   background-color: #fff;
   opacity: 0.15;
@@ -6088,6 +6097,16 @@ img {
 .tp-services-bg-area {
   background-color: #D6F0FF;
   border-radius: 140px;
+}
+
+.tpsvtab__num {
+  margin-top: 13px;
+}
+.tpsvtab__title {
+  font-size: 100px;
+}
+.tpsvtab__content p {
+  color: #B1B4BA;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
