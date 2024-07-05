@@ -51,6 +51,23 @@
       },
   });
 
+      // testimonial active home 5
+      var swiper = new Swiper(".tp-test-active", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        keyboard: {
+            enabled: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".tp-review-button-next",
+            prevEl: ".tp-review-button-prev",
+        },
+    });
+
  // testimonial with thumb Slider
   var swiper_thumb = new Swiper(".tp-testimonial-thumb-active", {
     loop: true,

@@ -679,10 +679,10 @@ img {
 .br-20 {
   border-radius: 20px;
 }
-.br-20 img {
+.br-20 > img {
   border-radius: 20px;
 }
-.br-15 img {
+.br-15 > img {
   border-radius: 15px;
 }
 .br-140 {
@@ -692,11 +692,21 @@ img {
   border-radius: 150px;
 }
 
+.tp-fs-15 {
+  font-size: 15px;
+}
+.tp-fs-24 {
+  font-size: 24px;
+}
 .tp-fs-30 {
   font-size: 30px;
 }
 .tp-fs-40 {
   font-size: 40px;
+}
+
+.tp-medium {
+  font-weight: 500;
 }
 
 .tp-black-bg {
@@ -6525,6 +6535,42 @@ img {
 }
 .tp-testimonial-thumb-active .swiper-slide.swiper-slide-active img {
   transform: scale(1);
+}
+
+.tp-test-slider-space {
+  margin-right: -445px;
+}
+
+.tptest {
+  background: #fff;
+  padding: 50px;
+}
+.tptest p {
+  line-height: 1.4;
+  color: #0A0E1A;
+}
+.tptest__rating i {
+  color: #FF8240;
+  font-size: 14px;
+}
+.tptest__quote {
+  background: #FFE9C9;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+}
+
+.tp-review-button {
+  border: 1px solid #57595c;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 70px;
+  margin-left: 15px;
+  border-radius: 100%;
 }
 
 .tpaward-wrapper .row .col-md-6:nth-child(even) .tpaward {
