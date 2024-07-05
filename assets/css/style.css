@@ -130,6 +130,7 @@
   --tp-theme-color-3: #FEDC76;
   --tp-theme-color-4: #FFF3D7;
   --tp-theme-orange: #FF5B15;
+  --tp-theme-orange-2: #FF3838;
   --tp-heading-color: #0A0E1A;
   --tp-black-common: #0A0E1A;
   --tp-body-color: #57595C;
@@ -693,6 +694,9 @@ img {
 
 .tp-fs-30 {
   font-size: 30px;
+}
+.tp-fs-40 {
+  font-size: 40px;
 }
 
 .tp-black-bg {
@@ -5971,6 +5975,30 @@ img {
   color: #fff;
   line-height: 50px;
 }
+.tpshowcase__tag {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #FFE9C9;
+  padding: 6px 15px;
+  padding-top: 8px;
+  border-radius: 30px;
+  color: #0A0E1A;
+  line-height: 1;
+  display: inline-block;
+}
+.tpshowcase__border {
+  border: 1px solid #57595C;
+}
+.tpshowcase__logo {
+  min-height: 320px;
+  padding: 30px;
+}
+.tpshowcase__content-box {
+  padding: 30px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+}
 
 .tpproject-bg {
   background-color: #D6F0FF;
@@ -6099,6 +6127,18 @@ img {
   border-radius: 140px;
 }
 
+.tp-service-tab .nav-links:first-child .tpsvtab {
+  border-top: 1px solid #2b303f;
+}
+.tp-service-tab .active .tpsvtab__title {
+  color: var(--tp-theme-orange-2);
+}
+
+.tpsvtab {
+  border-bottom: 1px solid #2b303f;
+  padding: 17px 0;
+  padding-bottom: 30px;
+}
 .tpsvtab__num {
   margin-top: 13px;
 }
@@ -6107,6 +6147,7 @@ img {
 }
 .tpsvtab__content p {
   color: #B1B4BA;
+  margin: 0;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

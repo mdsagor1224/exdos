@@ -160,6 +160,32 @@
         color: #fff;
         line-height: 50px;
     }
+
+    &__tag{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+        background-color: #FFE9C9;
+        padding: 6px 15px;
+        padding-top: 8px;
+        border-radius: 30px;
+        color: #0A0E1A;
+        line-height: 1;
+        display: inline-block;
+    }
+
+    &__border{
+        border: 1px solid #57595C;
+    }
+    &__logo{
+        min-height: 320px;
+        padding: 30px;
+    }
+    &__content-box{
+        padding: 30px;
+        margin-bottom: -1px;
+        margin-left: -1px;
+    }
 }
 
 

@@ -115,7 +115,23 @@
     border-radius: 140px;
 }
 
+.tp-service-tab{
+    & .nav-links:first-child{
+        & .tpsvtab{
+            border-top: 1px solid #2b303f;
+        }
+    }
+    & .active{
+        & .tpsvtab__title{
+            color: var(--tp-theme-orange-2);
+        }
+    }
+}
+
 .tpsvtab{
+    border-bottom: 1px solid #2b303f;
+    padding: 17px 0;
+    padding-bottom: 30px;
     &__num{
         margin-top: 13px;
     }
@@ -125,6 +141,7 @@
     &__content{
          & p{
             color: #B1B4BA;
+            margin: 0;
          }
     }
 }
