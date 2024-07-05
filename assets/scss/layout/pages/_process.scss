@@ -23,6 +23,23 @@
     &__title{
         font-size: 30px;
     }
+    &__count{
+        background: #FF3838;
+        height: 77px;
+        width: 77px;
+        border-radius: 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 56px;
+        font-size: 30px;
+        font-family: var(--tp-font-heading);
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 8px solid #fff;
+    }
     &__icon{
         & span{
             font-size: 85px;
@@ -33,6 +50,57 @@
             text-align: center;
             line-height: 175px;
             border-radius: 100%;
+            color: #000;
+        }
+        &-2{
+           & span{
+            height: 259px;
+            width: 259px;
+            font-size: 143px;
+            line-height: 253px;
+            margin: auto;
+           }
+           &-pos{
+            & span{
+                line-height: 350px;
+            }
+            & .tpprocess__count {
+                bottom: inherit;
+                top: -20px;
+            }
+           }
+           &-width{
+            & span{
+                width: 249px;
+                height: 249px;
+            }
+           }
+
         }
     }
+}
+
+
+.tpprocess{
+    &-2{
+        margin-left: -6px;
+        margin-top: -33px;
+    }
+    &-3{
+        margin-left: -5px;
+        margin-top: -6px;
+    }
+    &-4{
+        margin-left: -5px;
+        margin-top: -25px;
+    }
+}
+.tpprocess__shape{
+    bottom: -44px;
+    left: 0;
+}
+
+.tpprocess__shape-3{
+    bottom: inherit;
+    top: -40px;
 }
