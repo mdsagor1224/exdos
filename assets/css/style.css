@@ -391,6 +391,9 @@
     display: none;
   }
 }
+.tp-section-title-40 {
+  font-size: 40px;
+}
 .tp-section-title-content-white {
   color: #A3AEC3;
 }
@@ -5571,6 +5574,21 @@ img {
 .tp-bg-circle {
   border-radius: 360px;
   margin: 0 100px;
+}
+
+.tp-founder-sep {
+  height: 40px;
+  background: #FF3838;
+  width: 1px;
+  margin: 25px auto;
+}
+
+.tp-about-box-right {
+  position: absolute;
+  width: 52%;
+  right: 0;
+  top: 0;
+  background: #fff;
 }
 
 .tp-newsletter-margin {
