@@ -336,6 +336,23 @@
   transform: rotate(-45deg);
 }
 
+.tp-icon-btn {
+  font-size: 55px;
+  position: relative;
+  display: inline-block;
+}
+.tp-icon-btn span {
+  height: 38px;
+  width: 38px;
+  background: #F8F5FF;
+  display: inline-block;
+  position: absolute;
+  right: -11px;
+  z-index: -1;
+  border-radius: 30px;
+  top: 8px;
+}
+
 .tp-section-title-wrapperp br {
   display: none;
 }
@@ -4703,6 +4720,11 @@ img {
   padding-right: 100px;
 }
 
+.plr-85 {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
 .footer-sep {
   background-color: #fff;
   opacity: 0.15;
@@ -6842,6 +6864,11 @@ img {
   display: inline-block;
   transform: translateY(19px);
   padding: 0 30px;
+}
+
+.tp-brand-normal-wrapper {
+  border: 1px solid #ddd;
+  padding: 80px;
 }
 
 .tpprocess-border {

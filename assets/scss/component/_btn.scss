@@ -187,3 +187,21 @@
         transform: rotate(-45deg);
     }
 }
+
+
+.tp-icon-btn{
+    font-size: 55px;
+    position: relative;
+    display: inline-block;
+    & span{
+        height: 38px;
+        width: 38px;
+        background: #F8F5FF;
+        display: inline-block;
+        position: absolute;
+        right: -11px;
+        z-index: -1;
+        border-radius: 30px;
+        top: 8px;
+    }
+}
