@@ -2,6 +2,18 @@
     "use strict";
 
 
+    $(".tp-offcanvas-toogle").on('click', function(){
+        $(".tp-offcanvas").addClass("tp-offcanvas-open");
+        $(".tp-offcanvas-overlay").addClass("tp-offcanvas-overlay-open");
+    });
+
+    $(".tp-offcanvas-close-toggle,.tp-offcanvas-overlay").on('click', function(){
+        $(".tp-offcanvas").removeClass("tp-offcanvas-open");
+        $(".tp-offcanvas-overlay").removeClass("tp-offcanvas-overlay-open");
+    });
+
+
+
     // data bg-img
     // $("[data-background]").each(function(){
     //     $(this).css("background-image", "url("+ $(this).attr(data-background)")")

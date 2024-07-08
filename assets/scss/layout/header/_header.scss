@@ -208,7 +208,7 @@
         align-items: center;
     }
 
-    &-right{
+    &-right-black{
         & .tp-header-search {
             color: #0A0E1A;
             margin-right: 20px;
@@ -219,10 +219,10 @@
         & .tp-header-bar{
             margin-left: 20px;
             & button{
-                background: none;
+                // background: none;
                 padding: 0;
                 & i {
-                    color: #0A0E1A;
+                    color: #fff;
                 }
             }
         }
@@ -231,7 +231,9 @@
 }
 
 
-
+.tp-header-right .tp-header-bar button i {
+    color: #fff;
+}
 .tp-header-sep-vr{
     height: 40px;
     width: 1px;

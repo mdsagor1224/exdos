@@ -1,0 +1,76 @@
+@use '../utils' as *;
+
+.tp-offcanvas {
+    position: fixed;
+    background: #fff;
+    width: 450px;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    padding: 50px 40px;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: .3s;
+    &-open{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    &-close-toggle{
+        font-size: 30px;
+        color: var(--tp-heading-color);
+    }
+    &-title{
+        font-size: 35px;
+    }
+    &-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    &-info {
+        & span {
+            display: block;
+            color: #222;
+            margin-bottom: 5px;
+        }
+    }
+    &-sm-title{
+        font-size: 25px;
+    }
+    &-social{
+        &  a{
+            display: inline-block;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 40px;
+            color: var(--tp-heading-color);
+            border: 1px solid rgba(2,11,24,0.1);
+            font-size: 14px;
+        }
+    }
+
+    &-overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.45 easc-in-out;
+        background: rgba(24, 24, 24, 0.4);
+        &-open{
+            opacity: .7;
+            visibility: visible;
+        }
+    }
+   
+
+}
+

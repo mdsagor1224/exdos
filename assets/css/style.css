@@ -419,6 +419,73 @@
   color: #fff;
 }
 
+.tp-offcanvas {
+  position: fixed;
+  background: #fff;
+  width: 450px;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  padding: 50px 40px;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(100%);
+  transition: 0.3s;
+}
+.tp-offcanvas-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+.tp-offcanvas-close-toggle {
+  font-size: 30px;
+  color: var(--tp-heading-color);
+}
+.tp-offcanvas-title {
+  font-size: 35px;
+}
+.tp-offcanvas-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.tp-offcanvas-info span {
+  display: block;
+  color: #222;
+  margin-bottom: 5px;
+}
+.tp-offcanvas-sm-title {
+  font-size: 25px;
+}
+.tp-offcanvas-social a {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  color: var(--tp-heading-color);
+  border: 1px solid rgba(2, 11, 24, 0.1);
+  font-size: 14px;
+}
+.tp-offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.45 easc-in-out;
+  background: rgba(24, 24, 24, 0.4);
+}
+.tp-offcanvas-overlay-open {
+  opacity: 0.7;
+  visibility: visible;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5204,22 +5271,25 @@ img {
   display: flex;
   align-items: center;
 }
-.tp-header-right .tp-header-search {
+.tp-header-right-black .tp-header-search {
   color: #0A0E1A;
   margin-right: 20px;
 }
-.tp-header-right .tp-header-search i {
+.tp-header-right-black .tp-header-search i {
   color: #0A0E1A;
 }
-.tp-header-right .tp-header-bar {
+.tp-header-right-black .tp-header-bar {
   margin-left: 20px;
 }
-.tp-header-right .tp-header-bar button {
-  background: none;
+.tp-header-right-black .tp-header-bar button {
   padding: 0;
 }
+.tp-header-right-black .tp-header-bar button i {
+  color: #fff;
+}
+
 .tp-header-right .tp-header-bar button i {
-  color: #0A0E1A;
+  color: #fff;
 }
 
 .tp-header-sep-vr {
