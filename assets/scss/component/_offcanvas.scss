@@ -13,6 +13,12 @@
     visibility: hidden;
     transform: translateX(100%);
     transition: .3s;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    scrollbar-width: none;
+    @media only screen and (max-width:450px){
+        width: 100%;
+    }
     &-open{
         opacity: 1;
         visibility: visible;
@@ -22,6 +28,13 @@
         font-size: 30px;
         color: var(--tp-heading-color);
     }
+    &-header{
+        @media #{$lg,$md,$xs}{
+            margin-bottom: 40px;
+        }
+
+    }
+   
     &-title{
         font-size: 35px;
     }
