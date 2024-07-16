@@ -11,8 +11,8 @@
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    transform: translateX(100%);
-    transition: .3s;
+    @include transform(translateX(100%));
+    @include transition(.3s);
     overflow-y: scroll;
     overscroll-behavior-y: contain;
     scrollbar-width: none;
@@ -22,7 +22,7 @@
     &-open{
         opacity: 1;
         visibility: visible;
-        transform: translateX(0);
+        @include transform(translateX(0));
     }
     &-close-toggle{
         font-size: 30px;

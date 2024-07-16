@@ -45,7 +45,7 @@
             width: 60px;
             background: #57595c;
             display: inline-block;
-            transform: translateY(-5px);
+            @include transform(translateY(-5px));
             margin-right: 5px;
         }
     }
@@ -76,7 +76,7 @@
 
 
 .quotes-90{
-    transform: scaleX(-1);
+    @include transform(scaleX(-1));
     display: inline-block;
     font-size: 42px;
     color: var(--tp-theme-color-2);
@@ -125,7 +125,7 @@
     }
 }
 .tp-rot-180{
-    transform: rotate(180deg);
+    @include transform(rotate(180deg));
 }
 .tp-testimonial-shape-thumb{
     &-1{
@@ -206,11 +206,11 @@
 .tp-testimonial-thumb-active{
     & .swiper-slide{
         & img{
-            transform: scale(.7);
+            @include transform(scale(.7));
         }
         &.swiper-slide-active{
             & img{
-                transform: scale(1);
+                @include transform(scale(1));
             }
             position: relative;
         }

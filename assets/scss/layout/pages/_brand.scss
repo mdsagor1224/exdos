@@ -37,7 +37,7 @@
         margin-bottom: 0;
         background: #1a1a1a;
         display: inline-block;
-        transform: translateY(19px);
+        @include transform(translateY(19px));
         padding: 0 30px;
     }
 }

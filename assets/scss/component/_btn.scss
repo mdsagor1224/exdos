@@ -17,15 +17,15 @@
         position: absolute;
         bottom: -2px;
         right: -12px;
-        transform: rotate(12deg);
-        transition: .3s;
+        @include transform(rotate(12deg));
+        @include transition(.3s);
     }
     &:hover{
         & .tp-btn-y-1{
-            transform: translateY(-100%);
+            @include transform(translateY(-100%));
         }
         & .tp-btn-y-2{
-            transform: translateY(0);
+            @include transform(translateY(0));
         }
         & i{
             right: -100%;
@@ -51,15 +51,15 @@
             position: absolute;
             bottom: -2px;
             right: -12px;
-            transform: rotate(12deg);
-            transition: .3s;
+            @include transform(rotate(12deg));
+            @include transition(.3s);
         }
         &:hover{
             & .tp-btn-y-1{
-                transform: translateY(-100%);
+                @include transform(translateY(-100%));
             }
             & .tp-btn-y-2{
-                transform: translateY(0);
+                @include transform(translateY(0));
             }
             & i{
                 right: -100%;
@@ -76,7 +76,7 @@
         display: inline-block;
         line-height: 1;
         border-radius: 100%;
-        transition: .3s;
+        @include transition(.3s);
         @media #{$xs}{
             font-size: 40px;
         }
@@ -92,11 +92,11 @@
         overflow: hidden;
         display: block;
         & span{
-            transition: .2s;
+            @include transition(.2s);
             display: block;
             & i{
                 font-size: 15px;
-                transform: rotate(-45deg);
+                @include transform(rotate(-45deg));
                 margin-left: 5px;
             }
         }
@@ -107,7 +107,7 @@
         left: 0;
         top: 0;
         width: 100%;
-        transform: translateY(100%);
+        @include transform(translateY(100%));
     }
     &-border{
         border: 1px solid #57595C;
@@ -134,16 +134,16 @@
             position: absolute;
             bottom: -2px;
             right: -12px;
-            transform: rotate(12deg);
-            transition: .3s;
+            @include transform(rotate(12deg));
+            @include transition(.3s);
         }
         &:hover{
             color: #fff;
             & .tp-btn-y-1{
-                transform: translateY(-100%);
+                @include transform(translateY(-100%));
             }
             & .tp-btn-y-2{
-                transform: translateY(0);
+                @include transform(translateY(0));
             }
             & i{
                 right: -100%;
@@ -160,11 +160,11 @@
     font-size: 18px;
     color: #0a0e1a;
     font-family: var(--tp-font-heading);
-    display: flex;
+    @include flexbox();
     align-items: center;
     & i{
         margin-left: 8px;
-        transform: rotate(-45deg);
+        @include transform(rotate(-45deg));
     }
     &-white{
         color: #A3AEC3;
@@ -184,7 +184,7 @@
     line-height: 60px;
     font-size: 15px;
     & i{
-        transform: rotate(-45deg);
+        @include transform(rotate(-45deg));
     }
 }
 

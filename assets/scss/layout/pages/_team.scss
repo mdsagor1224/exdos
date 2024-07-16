@@ -15,7 +15,7 @@
         position: relative;
         & img{
             border-radius:15px;
-            transition: .3s;
+            @include transition(.3s);
             @media #{$xs}{
                 width: 100%;
             }
@@ -82,7 +82,7 @@
                 width: 60px;
                 background: #D6D6D1;
                 display: inline-block;
-                transform: translateY(-5px);
+                @include transform(translateY(-5px));
                 margin-right: 10px;
             }
         }
@@ -98,8 +98,8 @@
             left: 0;
             right: 0;
             top: 55%;
-            transform: translateY(-50%);
-            transition: .3s;
+            @include transform(translateY(-50%));
+            @include transition(.3s);
             opacity: 0;
             visibility: hidden;
             & a{

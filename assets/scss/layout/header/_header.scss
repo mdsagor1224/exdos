@@ -47,10 +47,10 @@
                     position: absolute;
                     top: -5px;
                     left: 26px;
-                    transform: rotate(133deg);
+                    @include transform(rotate(133deg));
                     color: var(--tp-theme-color-2);
                     opacity: 0;
-                    transition: .3s;
+                    @include transition(.3s);
                 }
             }
             &:hover{
@@ -71,7 +71,7 @@
                 padding: 16px 0;
                 opacity: 0;
                 visibility: hidden;
-                transition: .3s;
+                @include transition(.3s);
                 & li{
                     margin-right: 0;
                     display: block;
@@ -165,7 +165,7 @@
         & button{
             background: #23252D;
             padding: 20px 25px;
-            display: flex;
+            @include flexbox();
             align-items: center;
             & i{
                 color: #fff;
@@ -174,7 +174,7 @@
         }
     }
     &-cta{
-        display: flex;
+        @include flexbox();
         align-items: center;
         padding: 28px 15px;
         & i{
@@ -204,7 +204,7 @@
         }
     }
     &-btn{
-        display: flex;
+        @include flexbox();
         align-items: center;
     }
 

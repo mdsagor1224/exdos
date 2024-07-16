@@ -30,7 +30,7 @@
             border-bottom: 1px solid #2f446b;
             padding: 13px 100px;
             padding-right: 35px;
-            transition: .3s;
+            @include transition(.3s);
             text-align: left;
             //width: 100%;
             @media #{$xxlm}{
@@ -101,7 +101,7 @@
        bottom: 70px;
        left: 80px;
        opacity: 0;
-       transition: .3s;
+       @include transition(.3s);
        visibility: hidden;
        & span{
         background: #fff;

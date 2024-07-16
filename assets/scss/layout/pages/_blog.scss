@@ -31,7 +31,7 @@
                 & cite{
                     position: absolute;
                     width: 130px;
-                    transform: rotate(-90deg);
+                    @include transform(rotate(90deg));
                     left: -39px;
                     bottom: 97px;
                     font-style: normal;
@@ -89,7 +89,7 @@
         .tpblog__thumb{
             width:200px;
             flex: 0 0 auto;
-            transform: translateY(-12px);
+            @include transform(translateY(-12px));
             margin-left: -3px;
             height: 100%;
             position: absolute;

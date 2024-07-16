@@ -39,7 +39,7 @@
     }
     
     .form-check .form-check-input{
-        transform: translateY(2px);
+        @include transform(translateY(2px));
     }
     &-2 {
         & .form-check-label{
