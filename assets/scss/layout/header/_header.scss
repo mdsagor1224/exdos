@@ -11,11 +11,16 @@
     @media #{$xl}{
         padding-left: 30px;
     }
-    @media #{$lg, $md}{
-        padding-left: 40px;
+    @media #{$lg}{
+        padding-left: 30px;
+        padding-right: 30px;
     }
-    @media #{$xs}{
-        padding-left: 15px;
+    @media #{$md}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media #{$md}{
+        padding: 10px 15px;
     }
 }
 .tp-main-menu{
@@ -238,5 +243,18 @@
     height: 40px;
     width: 1px;
     background: #F2DDD1;
+}
+
+.tp-header-toggle{
+    & button{
+        background: #23252D;
+        padding: 11px 16px;
+        @include flexbox();
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 40px;
+        border-radius: 10px;
+    }
 }
 

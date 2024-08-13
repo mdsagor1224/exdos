@@ -25,12 +25,19 @@
 }
 
 .tp-about{
+    &-wrapper{
+        @media #{$xl}{
+           padding-left: 100px;
+        }
+        @media #{$lg, $md, $xs}{
+            padding-left: 0px;
+         }
+    }
     &-img{
         border-radius: 20px;
         @media #{$xs}{
             margin-bottom: 40px;
             padding-left: 0;
-
         }
     }
     &-video{
@@ -109,10 +116,15 @@
         & li{
             list-style: none;
             margin-bottom: 20px;
+            display: flex;
             & i{
                 font-size: 30px;
                 color: #333;
                 margin-right: 10px;
+                margin-top: 5px;
+                @media #{$lg}{
+                    position: static;
+                 }
             }
             & span{
                 font-size: 30px;
@@ -130,7 +142,13 @@
     right:185px;
     & img{
         max-width: inherit;
+        @media #{$lg}{
+           max-width: 100%;
+         }
     }
+    @media #{$lg}{
+        position: static;
+     }
 }
 
 

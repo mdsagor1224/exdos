@@ -13,12 +13,23 @@
             padding-bottom: 150px;
         }
     }
+    &-2-space{
+        @media #{$md}{
+            padding-bottom: 0px;
+            padding-top: 190px;
+        }
+        @media #{$xs}{
+            padding-bottom: 0px;
+            padding-top: 150px;
+        }
+    }
     &-title{
         color: #fff;
         font-size: 110px;
         @media #{$xl}{
-            font-size: 80px;
+            font-size: 90px;
         }
+        
         @media #{$lg}{
             font-size: 75px;
         }
@@ -50,6 +61,30 @@
         }
         &-2{
             font-size: 100px;
+            @media #{$xxlm}{
+                font-size: 80px;
+            }
+            @media #{$xl}{
+                font-size: 80px;
+            }
+            @media #{$lg}{
+                font-size: 70px;
+            }
+            @media #{$md}{
+                font-size: 90px;
+            }
+            @media #{$xs}{
+                font-size: 40px;
+            }
+            @media #{$sm}{
+                font-size: 70px;
+            }
+            & img{
+                @media #{$xs}{
+                    width: 40px;
+                    height: auto;
+                }
+            }
         }
 
         &-black{
@@ -201,6 +236,18 @@
     right: 0;
     bottom: 0;
     background-size:cover;
+    @media #{$md}{
+        position: static;
+        width: 100%;
+        height: 500px;
+        margin-top: 30px;
+    }
+    @media #{$xs}{
+        position: static;
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
 }
 
 .ml-m-7{
