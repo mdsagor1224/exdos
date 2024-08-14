@@ -6705,22 +6705,22 @@ img {
   border-radius: 140px 140px 0 0;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600), only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tpteam__info {
+  .tpteam__info.ml-80 {
     margin-left: 0px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tpteam__info {
+  .tpteam__info.ml-80 {
     margin-left: 40px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .tpteam__info {
+  .tpteam__info.ml-80 {
     margin-left: 30px;
   }
 }
 @media (max-width: 767px) {
-  .tpteam__info {
+  .tpteam__info.ml-80 {
     margin-left: 20px;
   }
 }
@@ -6782,6 +6782,11 @@ img {
     font-size: 27px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpteam__title-2 {
+    font-size: 20px;
+  }
+}
 .tpteam__subtitle {
   margin-bottom: 7px;
   display: block;
@@ -6840,6 +6845,11 @@ img {
 .tp-testimonial-text {
   font-size: 60px;
   color: #fff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-testimonial-text {
+    font-size: 40px;
+  }
 }
 .tp-testimonial-text i {
   font-size: 42px;
@@ -7251,6 +7261,7 @@ img {
   padding-left: 228px;
   padding-top: 23px;
   padding-bottom: 23px;
+  padding-right: 20px;
 }
 
 .tp-video-area {

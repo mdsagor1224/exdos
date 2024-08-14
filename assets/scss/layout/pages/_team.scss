@@ -61,19 +61,22 @@
     }
 
     &__info{
-        @media #{$xxlm, $xl}{
-            margin-left: 0px;
+        &.ml-80{
+            @media #{$xxlm, $xl}{
+                margin-left: 0px;
+            }
+    
+            @media #{$lg}{
+                margin-left: 40px;
+            }
+            @media #{$md}{
+                margin-left: 30px;
+            }
+            @media #{$xs}{
+                margin-left: 20px;
+            }
         }
-
-        @media #{$lg}{
-            margin-left: 40px;
-        }
-        @media #{$md}{
-            margin-left: 30px;
-        }
-        @media #{$xs}{
-            margin-left: 20px;
-        }
+        
         & span{
             color: #57595C;
             font-size: 17px;
@@ -119,6 +122,11 @@
         margin-bottom: 5px;
         @media #{$xl}{
             font-size: 27px;
+         }
+         &-2{
+            @media #{$lg}{
+                font-size: 20px;
+             }
          }
     }
 

@@ -20,6 +20,9 @@
 
     &-text{
         font-size: 60px;
+        @media #{$lg}{
+            font-size: 40px;
+         }
         color: #fff;
         & i{
             font-size: 42px;
