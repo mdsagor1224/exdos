@@ -45,6 +45,17 @@
     width: calc(50% - 65px);
     background-size: cover;
     border-radius: 0 20px 20px 0;
+    @media #{$md, $xs}{
+        position: static;
+        height: 500px;
+        border-radius: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    @media #{$xs}{
+        height: 300px;
+    }
+    
 }
 
 .tp-faq{

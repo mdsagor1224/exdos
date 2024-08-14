@@ -23,6 +23,12 @@
         @media #{$lg}{
             font-size: 40px;
          }
+        @media #{$md}{
+        font-size: 25px;
+        }
+        @media #{$xs}{
+            font-size: 18px;
+            }
         color: #fff;
         & i{
             font-size: 42px;
@@ -54,8 +60,19 @@
     }
 
     &-author{
+        @media #{$xs}{
+            margin-right: 20px;
+         }
+        &-info{
+            @media #{$xs}{
+                margin-left: 0;
+             }
+        }
         &-name{
             font-size: 30px;
+            @media #{$xs}{
+                font-size: 20px;
+             }
             color: #fff;
             &-black{
                 color: #0A0E1A;
@@ -74,6 +91,9 @@
     }
     &-main-wrapper{
         margin-left: -55px;
+        @media #{$xs}{
+            margin-left: 0px;
+        }
     }
 }
 
@@ -83,8 +103,15 @@
     display: inline-block;
     font-size: 42px;
     color: var(--tp-theme-color-2);
+    @media #{$xs}{
+        display: none;
+     }
 }
-
+.tp-testimonial-long-text{
+    & i{
+        display: none;
+    }
+}
 .tp-testimonial-shape{
     position: absolute;
     top: 50px;
@@ -172,6 +199,10 @@
     bottom: 20px;
     left: 500px;
     opacity: .5;
+    @media #{$xs}{
+        position: static;
+        margin-top: 20px;
+     }
     & span{
         height: 12px;
         width: 12px;
