@@ -137,9 +137,13 @@
     }
 
     &__number{
+        @media #{$lg}{
+            margin-bottom: 14px;
+         }
         & span{
             color: #A3AEC3;
             font-size: 30px;
+            
             position: relative;
             &::before{
                 width: 60px;
@@ -149,6 +153,10 @@
                 position: absolute;
                 left: -68px;
                 top: 50%;
+                @media #{$lg}{
+                   left: -23px;
+                   width: 20px;
+                }
             }
         }
     } 
@@ -168,6 +176,9 @@
         font-size: 40px;
         color: #fff;
         line-height: 50px;
+        @media #{$lg}{
+            font-size: 25px;
+         }
     }
 
     &__tag{

@@ -18,15 +18,15 @@
     
     <!-- header start -->
     <header>
-        <div class="tp-header-area tp-transparent-header pl-100 pr-100 tp-header-border">
+        <div class="tp-header-area tp-header-space-3 tp-transparent-header pl-100 pr-100 tp-header-border">
             <div class="container-fluid p-0">
                 <div class="row gx-0 align-items-center">
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-6">
+                    <div class="col-xl-2 col-md-4 col-6">
                         <div class="tp-logo">
                            <a href="index.html"> <img src="assets/img/logo/logo-black.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-6">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-6 d-none d-xl-block">
                         <div class="tp-header-box text-center">
 
                             <div class="tp-main-menu tp-main-menu-black d-none d-xl-block">
@@ -61,17 +61,16 @@
                                         <li><a href="#">Portfolio</a></li>
                                         <li><a href="#">Pages</a></li>
                                         <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
 
                             
-                        </div>
+                        </div> 
                         
                     </div>
                     
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-6">
                         <div class="tp-header-right tp-header-right-black d-flex justify-content-end flex-wrap align-items-center">
                             <div class="tp-header-search d-none d-md-flex">
                                 <button class="d-flex align-items-center">
@@ -81,7 +80,7 @@
                             <span class="tp-header-sep-vr"></span>
 
                             <div class="tp-header-bar">
-                                <button>
+                                <button class="tp-offcanvas-toogle">
                                     <i class="flaticon-menu"></i>
                                     </button>
                             </div>
@@ -92,7 +91,52 @@
         </div>
     </header>
     <!-- header end -->
+    <div class="tp-offcanvas">
+        <div class="tp-offcanvas-wrapper">
+            <div class="tp-offcanvas-header d-flex justify-content-between align-items-center mb-90">
+                <div class="tp-offcanvas-logo">
+                    <a href="#"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                </div>
+                <div class="tp-offcanvas-close">
+                   <button class="tp-offcanvas-close-toggle"><i class="fal fa-times"></i></button>
+                </div>
+            </div>
 
+            <div class="tp-offcanvas-menu d-xl-none mb-40">
+                <nav></nav>
+            </div>
+
+            <div class="tp-offcanvas-content mb-40 d-none d-xl-block">
+                <h2 class="tp-offcanvas-title">Hello There</h2>
+                <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Nihil, rerum.</p>
+            </div>
+
+            <div class="tp-offcanvas-gallery mb-40">
+                
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-01.png"><img src="assets/img/projects/showcase-thumb-01.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-02.png"><img src="assets/img/projects/showcase-thumb-02.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-03.png"><img src="assets/img/projects/showcase-thumb-03.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-04.png"><img src="assets/img/projects/showcase-thumb-04.png" alt=""></a>
+            </div>
+
+            <div class="tp-offcanvas-info mb-40">
+                <h3 class="tp-offcanvas-sm-title">Contact Us</h3>
+                <span><a href="#">+57 9954 6476</a></span>
+                <span><a href="#">hello@exdos.com</a></span>
+                <span><a href="#">Bhemeara,Kushtia</a></span>
+            </div>
+ 
+            <div class="tp-offcanvas-social mb-40">
+                <h3 class="tp-offcanvas-sm-title">Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+             </div>
+
+        </div>
+    </div>
+    <div class="tp-offcanvas-overlay"></div>
 
 
     <main>
@@ -136,10 +180,8 @@ fowl man divide which called. Open.
          <!-- service section start -->
         <section class="tp-services-area pt-130 pb-130">
             <div class="container">
-                
-
                 <div class="row">
-                    <div class="col-xl-8">
+                    <div class="col-xl-8 col-lg-12">
                         <div class="tp-section-title-wrapper mb-40">
                             <span class="tp-section-subtitle tp-upper mb-10"><i class="sub-dot-color"></i>what we offer</span>
                             <h2 class="tp-section-title tp-upper mb-20">Elevate Your Business <br>
@@ -147,7 +189,7 @@ fowl man divide which called. Open.
                          </div>
 
                          <div class="row g-0 ">
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6">
                                 <div class="tpservices tpservices-2 d-flex br-24">
                                     <div class="tpservices__icon mr-20 mb-25 p-relative">
                                         <span><i class="flaticon-geometric-1"></i></span>
@@ -165,7 +207,7 @@ fowl man divide which called. Open.
                                 </div>
                             </div>
 
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6">
                                 <div class="tpservices tpservices-2 d-flex br-24">
                                     <div class="tpservices__icon mr-20 mb-25 p-relative">
                                         <span><i class="flaticon-geometric-1"></i></span>
@@ -183,7 +225,7 @@ fowl man divide which called. Open.
                                 </div>
                             </div>
 
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6">
                                 <div class="tpservices tpservices-2 d-flex br-24">
                                     <div class="tpservices__icon mr-20 mb-25 p-relative">
                                         <span><i class="flaticon-geometric-1"></i></span>
@@ -201,7 +243,7 @@ fowl man divide which called. Open.
                                 </div>
                             </div>
 
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6">
                                 <div class="tpservices tpservices-2 d-flex br-24">
                                     <div class="tpservices__icon mr-20 mb-25 p-relative">
                                         <span><i class="flaticon-geometric-1"></i></span>
@@ -220,7 +262,7 @@ fowl man divide which called. Open.
                             </div>
                          </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-12 d-lg-none d-xl-block">
                         <div class="tpservices__thumb br-20">
                             <img src="assets/img/services/service-bgi.jpg" alt="">
                         </div>
@@ -237,7 +279,7 @@ fowl man divide which called. Open.
             
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-xl-7 col-lg-6 col-md-7">
                         <div class="tp-about-thumb ml-60 mr-80 p-relative text-center">
                             <div class="tp-about-shape">
                                 <img class="tp-about-2-shape-1 p-absolute" src="assets/img/shape/home-3-aec-1.png" alt="">
@@ -247,7 +289,7 @@ fowl man divide which called. Open.
                             <div class="tp-about-circle"></div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-xl-5 col-lg-6 col-md-5">
                         <div class="tp-section-title-wrapper mb-40">
                             <span class="tp-section-subtitle tp-upper mb-10"><i class="sub-dot-color"></i>our company</span>
                             <h2 class="tp-section-title tp-upper mb-20">Focus on work
@@ -373,7 +415,7 @@ fowl man divide which called. Open.
                  </div>
 
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="tpprocess tpprocess-border mb-30 text-center pt-60 pb-60 pl-35 pr-35">
                             <div class="tpprocess__step mb-35">
                                 <span>Step (01)</span>
@@ -388,7 +430,7 @@ fowl man divide which called. Open.
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="tpprocess tpprocess-border mb-30 text-center pt-60 pb-60 pl-35 pr-35">
                             <div class="tpprocess__step mb-35">
                                 <span>Step (02)</span>
@@ -403,7 +445,7 @@ fowl man divide which called. Open.
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="tpprocess tpprocess-border mb-30 text-center pt-60 pb-60 pl-35 pr-35">
                             <div class="tpprocess__step mb-35">
                                 <span>Step (03)</span>
@@ -418,7 +460,7 @@ fowl man divide which called. Open.
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="tpprocess tpprocess-border mb-30 text-center pt-60 pb-60 pl-35 pr-35">
                             <div class="tpprocess__step mb-35">
                                 <span>Step (04)</span>
@@ -441,27 +483,27 @@ fowl man divide which called. Open.
         <section class="tp-project-tab-area tp-nblue-bg pt-130 pb-130 pr-100" style="background-image: url(assets/img/bg/project-bg-pattern.png);">
             <div class="container">
                 <div class="row align-items-end">
-                    <div class="col-lg-7">
+                    <div class="col-lg-12">
                         <div class="tp-section-title-wrapper mb-50">
                             <span class="tp-section-subtitle tp-section-subtitle-white tp-upper mb-10"><i class="sub-dot-color"></i>recent showcase</span>
                             <h2 class="tp-section-title tp-section-title-white tp-upper mb-20">our latest project &
                                 portfolio</h2>
                          </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-12">
                         <div class="tp-section-title-wrapper mb-50 pb-15">
                            <p class="tp-section-title-content-white">Per ipsum ultrices sollicitud platea facilisi Semper aliquam up tacits <b>senectus cursus</b> vivamu volutpat penatibus fringilla porttitor do magna purus massa per <b>duis dapibus</b> scelerisqu divice fred etiam</p>
                          </div>
                     </div>
                 </div>
 
-                <div class="row g-0 align-items-center">
-                    <div class="col-lg-6">
+                <div class="row gx-xl-0 align-items-center">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="tpshowcase__thumb br-20">
                             <img src="assets/img/projects/project-01.jpg" alt="">
                         </div>
                     </div>
-                    <div class="offset-xl-1 col-lg-5">
+                    <div class="offset-xl-1 col-xl-5 col-lg-6">
                         <div class="tpshowcase pl-10">
                             <div class="tpshowcase__number mb-30">
                                 <span>01</span>
@@ -481,7 +523,7 @@ fowl man divide which called. Open.
                         </div>
                     </div>
 
-                    <div class="offset-xl-1 col-lg-5">
+                    <div class="offset-xl-1 col-xl-5 col-lg-6">
                         <div class="tpshowcase pl-10">
                             <div class="tpshowcase__number mb-30">
                                 <span>02</span>
@@ -501,19 +543,19 @@ fowl man divide which called. Open.
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="tpshowcase__thumb br-20">
                             <img src="assets/img/projects/project-02.jpg" alt="">
                         </div>
                     </div>
 
 
-                    <div class="col-lg-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="tpshowcase__thumb br-20">
                             <img src="assets/img/projects/project-03.jpg" alt="">
                         </div>
                     </div>
-                    <div class="offset-xl-1 col-lg-5">
+                    <div class="offset-xl-1 col-xl-5 col-lg-6">
                         <div class="tpshowcase pl-10">
                             <div class="tpshowcase__number mb-30">
                                 <span>03</span>
@@ -658,7 +700,7 @@ fowl man divide which called. Open.
          </div>
 
          <!-- tp-brand area -->
-          <div class="tp-brand-area-3  tp-cream-bg-2 pt-120 pb-90">
+          <div class="tp-brand-area-3  tp-cream-bg-2 pt-40 pb-35">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -841,18 +883,7 @@ fowl man divide which called. Open.
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
+    
     </main>
 
     <!-- footer area start -->

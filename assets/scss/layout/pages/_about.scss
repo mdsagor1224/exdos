@@ -73,6 +73,13 @@
         border-radius: 100%;
         position: absolute;
         bottom: 0;
+        @media #{$xl}{
+            width: 550px;
+        }
+        @media #{$lg}{
+            width: 400px;
+            height: 400px;
+        }
     }
     &-thumb{
         & > img{

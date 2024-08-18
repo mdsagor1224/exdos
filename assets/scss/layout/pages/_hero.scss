@@ -1,8 +1,14 @@
 @use '../../utils' as *;
 
 .tp-hero{
+    
     @media #{$xxlm}{
-        padding-left: 120px;
+        padding-left: 90px;
+    }
+    &-black{
+        @media #{$xxlm}{
+            padding-left: 0px;
+        } 
     }
     @media #{$xl}{
         padding-left: 70px;
@@ -90,6 +96,12 @@
         &-black{
             color: #0A0E1A;
             font-size: 100px;
+            @media #{$xl}{
+                font-size: 70px;
+            }
+            @media #{$lg}{
+                font-size: 60px;
+            }
             & img{
                 margin-left: 55px;
                 @include transform(translateY(-10px));
@@ -136,11 +148,38 @@
         &-content{
             margin-left:155px;
             max-width: 488px;
+            @media #{$lg}{
+                margin-left:80px;
+            }
         }
     }
     &-img{
         flex: 0 0 auto;
+        @media screen and (min-width:1600px) and (max-width:1800px){
+            width: 325px;
+        }
+        @media #{$xxlm}{
+           width: 250px;
+           margin-right: 40px;
+        }
+        @media #{$xl}{
+            width: 200px;
+            margin-right: 40px;
+         }
+         @media #{$lg}{
+            width: 100px;
+            margin-right: 0px;
+         }
         & img{
+            @media screen and (min-width:1600px) and (max-width:1800px){
+               max-width:100%;
+            }
+            @media #{$xl}{
+                max-width: 100%;
+             }
+             @media #{$lg}{
+                max-width: 100%;
+             }
             max-width: inherit;
         }
     }
@@ -221,11 +260,25 @@
         border-radius: 50%;
         bottom: 55px;
         z-index: 2;
+        @media #{$xl}{
+            width: 200px;
+            bottom: 100px;
+        }
+        @media #{$lg}{
+            width: 200px;
+            bottom: 100px;
+        }
     }
     &-1{
         right: 60px;
         top: 137px;
         z-index: 1;
+        @media #{$xxlm}{
+            width: 300px;
+        } 
+        @media #{$xl}{
+            width: 200px;
+        }
     }
 }
 

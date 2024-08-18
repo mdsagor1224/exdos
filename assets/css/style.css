@@ -5038,6 +5038,12 @@ img {
   margin-left: 33px;
   position: relative;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-footer-menu ul li {
+    padding-left: 15px;
+    margin-left: 15px;
+  }
+}
 @media (max-width: 767px) {
   .tp-footer-menu ul li {
     padding-left: 10px;
@@ -5520,7 +5526,12 @@ img {
 
 @media only screen and (min-width: 1400px) and (max-width: 1600) {
   .tp-hero {
-    padding-left: 120px;
+    padding-left: 90px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-hero-black {
+    padding-left: 0px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -5637,6 +5648,16 @@ img {
   color: #0A0E1A;
   font-size: 100px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-title-black {
+    font-size: 70px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-title-black {
+    font-size: 60px;
+  }
+}
 .tp-hero-title-black img {
   margin-left: 55px;
   -moz-transform: translateY(-10px);
@@ -5686,11 +5707,54 @@ img {
   margin-left: 155px;
   max-width: 488px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-black-content {
+    margin-left: 80px;
+  }
+}
 .tp-hero-img {
   flex: 0 0 auto;
 }
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .tp-hero-img {
+    width: 325px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-hero-img {
+    width: 250px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-img {
+    width: 200px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-img {
+    width: 100px;
+    margin-right: 0px;
+  }
+}
 .tp-hero-img img {
   max-width: inherit;
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .tp-hero-img img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-img img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-img img {
+    max-width: 100%;
+  }
 }
 
 .hero-info {
@@ -5782,10 +5846,32 @@ img {
   bottom: 55px;
   z-index: 2;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-3-shape-2 {
+    width: 200px;
+    bottom: 100px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-hero-3-shape-2 {
+    width: 200px;
+    bottom: 100px;
+  }
+}
 .tp-hero-3-shape-1 {
   right: 60px;
   top: 137px;
   z-index: 1;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-hero-3-shape-1 {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-hero-3-shape-1 {
+    width: 200px;
+  }
 }
 
 .hero-bg-img {
@@ -5958,6 +6044,17 @@ img {
   border-radius: 100%;
   position: absolute;
   bottom: 0;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-about-circle {
+    width: 550px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-about-circle {
+    width: 400px;
+    height: 400px;
+  }
 }
 .tp-about-thumb > img {
   position: relative;
@@ -6418,6 +6515,11 @@ img {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpshowcase__number {
+    margin-bottom: 14px;
+  }
+}
 .tpshowcase__number span {
   color: #A3AEC3;
   font-size: 30px;
@@ -6432,6 +6534,12 @@ img {
   left: -68px;
   top: 50%;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpshowcase__number span::before {
+    left: -23px;
+    width: 20px;
+  }
+}
 .tpshowcase__cat span {
   color: #0A0E1A;
   padding: 4px 16px;
@@ -6445,6 +6553,11 @@ img {
   font-size: 40px;
   color: #fff;
   line-height: 50px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tpshowcase__title {
+    font-size: 25px;
+  }
 }
 .tpshowcase__tag {
   font-size: 15px;

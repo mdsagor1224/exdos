@@ -126,6 +126,10 @@
             display: inline-block;
             padding-left: 33px;
             margin-left: 33px;
+            @media #{$xl}{
+                padding-left: 15px;
+                margin-left: 15px;
+            }
             @media #{$xs}{
                 padding-left: 10px;
                 margin-left: 10px;
