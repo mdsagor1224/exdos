@@ -4462,6 +4462,11 @@ img {
 .tp-section-m-100 {
   margin: 0 100px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-section-m-100 {
+    margin: 0px;
+  }
+}
 
 .plr-100 {
   padding-left: 100px;
@@ -5833,6 +5838,11 @@ img {
   display: block ruby;
 }
 
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-hero-wrapper-4 {
+    padding-left: 50px;
+  }
+}
 .tp-hero-shape-4 {
   right: 300px;
   bottom: 130px;
@@ -5977,6 +5987,11 @@ img {
 .tp-el-shape img {
   width: 95%;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-el-shape img {
+    width: 79%;
+  }
+}
 .tp-el-shape-5 img {
   width: 98%;
 }
@@ -5994,6 +6009,11 @@ img {
   top: 49%;
   left: 0;
   font-weight: 500;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .hero-social-4 {
+    display: none;
+  }
 }
 .hero-social-4 span {
   display: inline-block;
@@ -6204,6 +6224,16 @@ img {
   border-radius: 360px;
   margin: 0 100px;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600) {
+  .tp-bg-circle {
+    margin: 0 30px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-bg-circle {
+    margin: 0px;
+  }
+}
 
 .tp-founder-sep {
   height: 40px;
@@ -6363,6 +6393,12 @@ img {
 .tp-contact-img img {
   max-width: inherit;
   margin-left: -40px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tp-contact-img img {
+    margin-left: 0;
+    max-width: 100%;
+  }
 }
 
 .tp-contact-form-box input, .tp-contact-form-box textarea {
@@ -6697,6 +6733,11 @@ img {
 .tp-project-active-margin {
   margin: 0 -100px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .tp-project-active-margin {
+    margin: 0 -250px;
+  }
+}
 
 .tpservices {
   border: 1px solid #57595C;
@@ -6731,7 +6772,7 @@ img {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpservices__title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 .tpservices__list ul {

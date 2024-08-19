@@ -229,6 +229,13 @@
     display: block ruby;
 }
 .tp-hero{
+    &-wrapper{
+        &-4{
+            @media #{$xxlm}{
+                padding-left: 50px;
+            } 
+        }
+    }
     &-shape-4{
         right: 300px;
         bottom: 130px;
@@ -349,6 +356,9 @@
     bottom: 0;
     & img{
         width: 95%;
+        @media #{$xl}{
+            width: 79%;
+         }
     }
     &-5{
         & img{
@@ -366,10 +376,14 @@
     top: 49%;
     left: 0;
     font-weight: 500;
+    @media #{$xxlm}{
+       display: none;
+    }
     & span{
         display: inline-block;
         margin: 0 3px;
     }
+   
 }
 
 .tp-hero-star-shape{

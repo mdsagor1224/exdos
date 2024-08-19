@@ -170,6 +170,12 @@
 .tp-bg-circle{
     border-radius: 360px;
     margin: 0 100px;
+    @media #{$xxlm}{
+        margin: 0 30px;
+    }
+    @media #{$xl}{
+        margin: 0px;
+    }
 }
 
 .tp-founder-sep{

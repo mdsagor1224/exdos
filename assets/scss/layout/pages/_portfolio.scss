@@ -249,4 +249,7 @@
 
 .tp-project-active-margin{
     margin: 0 -100px;
+    @media #{$xl}{
+        margin: 0 -250px;
+     }
 }
