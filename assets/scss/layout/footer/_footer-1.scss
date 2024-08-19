@@ -63,7 +63,7 @@
     &-3{
         padding-left: 60px;
         position: relative;
-        @media #{$md, $xs}{
+        @media #{$lg,$md, $xs}{
             padding-left: 0;
         }
     }
@@ -75,7 +75,7 @@
                 display: none;
             }
         }
-        @media #{$md, $xs}{
+        @media #{$lg,$md, $xs}{
             padding-left: 0;
         }
     }

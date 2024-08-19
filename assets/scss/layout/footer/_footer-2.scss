@@ -88,6 +88,9 @@
 
 .tp-footer-2-col-2{
     padding-left: 80px;
+    @media #{$lg, $md, $xs}{
+        padding-left: 0px;
+    }
 }
 
 .tp-footer-2-col-3{

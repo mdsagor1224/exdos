@@ -102,6 +102,9 @@
             @media #{$lg}{
                 font-size: 60px;
             }
+            @media #{$md}{
+                font-size: 60px;
+            }
             & img{
                 margin-left: 55px;
                 @include transform(translateY(-10px));
@@ -150,6 +153,9 @@
             max-width: 488px;
             @media #{$lg}{
                 margin-left:80px;
+            }
+            @media #{$md}{
+                margin-left:40px;
             }
         }
     }
@@ -265,6 +271,10 @@
             bottom: 100px;
         }
         @media #{$lg}{
+            width: 200px;
+            bottom: 100px;
+        }
+        @media #{$md}{
             width: 200px;
             bottom: 100px;
         }

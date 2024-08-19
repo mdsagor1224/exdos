@@ -29,6 +29,7 @@
         & li{
             color: #57595C;
             margin-bottom: 10px;
+            @include flexbox();
             & i{
                 margin-right: 10px;
                 font-size: 18px;

@@ -46,3 +46,9 @@
     border: 1px solid #ddd;
     padding: 80px;
 }
+
+.tp-brand-logo-wrapper {
+    @media #{$lg, $md, $xs}{
+       padding-left: 0px;
+     }
+}
