@@ -36,6 +36,9 @@
         }
         &-black{
             font-size: 40px;
+            @media #{$xs}{
+                font-size: 25px;
+             }
             color: #0A0E1A;
         }
     }
@@ -228,6 +231,10 @@
 
 .tp-testimonial-quote{
     float: left;
+    @media #{$xs}{
+        float: none;
+        margin-bottom: 30px;
+     }
 }
 
 .tp-test-slider-arrow-3{

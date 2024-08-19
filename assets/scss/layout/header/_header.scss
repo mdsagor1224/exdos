@@ -22,6 +22,9 @@
     @media #{$md}{
         padding: 10px 15px;
     }
+    @media #{$xs}{
+        padding: 10px 15px;
+    }
 }
 .tp-main-menu{
     @media #{$xl}{

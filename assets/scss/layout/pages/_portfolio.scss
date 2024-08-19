@@ -185,6 +185,9 @@
         @media #{$lg}{
             font-size: 25px;
          }
+         @media #{$xs}{
+            font-size: 25px;
+         }
     }
 
     &__tag{

@@ -105,9 +105,17 @@
             @media #{$md}{
                 font-size: 60px;
             }
+            @media #{$xs}{
+                font-size: 40px;
+            }
             & img{
                 margin-left: 55px;
                 @include transform(translateY(-10px));
+                @media #{$xs}{
+                    margin-left: 0;
+                    width: 50px;
+                    @include transform(translateY(-6px));
+                }
             }
         }
     }
@@ -156,6 +164,9 @@
             }
             @media #{$md}{
                 margin-left:40px;
+            }
+            @media #{$xs}{
+                margin-left:0px;
             }
         }
     }
@@ -278,6 +289,9 @@
             width: 200px;
             bottom: 100px;
         }
+        @media #{$xs}{
+            width: 100px;
+        }
     }
     &-1{
         right: 60px;
@@ -288,6 +302,10 @@
         } 
         @media #{$xl}{
             width: 200px;
+        }
+        @media #{$xs}{
+            width: 100px;
+            right: 30px;
         }
     }
 }
