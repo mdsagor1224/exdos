@@ -26,6 +26,41 @@
         padding: 10px 15px;
     }
 }
+.tp-header-space{
+    @media #{$xxlm}{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    @media #{$xl}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media #{$lg}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media #{$md}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media #{$xs}{
+        padding: 10px 15px;
+    }
+    &-3{
+        @media #{$lg,$md}{
+            padding: 18px 30px;
+        }
+    }
+    &-4{
+        @media #{$lg,$md}{
+            padding: 18px 30px;
+        }
+        @media #{$xs}{
+            padding: 18px 15px;
+        }
+    }
+}
+
 .tp-main-menu{
     @media #{$xl}{
         padding-left: 10px;

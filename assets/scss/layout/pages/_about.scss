@@ -173,8 +173,11 @@
     @media #{$xxlm}{
         margin: 0 30px;
     }
-    @media #{$xl}{
+    @media #{$xl,$lg,$md,$xs}{
         margin: 0px;
+    }
+    @media #{$md,$xs}{
+      border-radius: 0px;
     }
 }
 

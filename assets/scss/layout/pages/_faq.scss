@@ -80,8 +80,14 @@
         }
     }
     &-thumb{
+        @media #{$lg,$md,$xs}{
+            margin-left: 0;
+        }
         img{
             max-width: inherit;
+            @media #{$md,$xs}{
+                max-width: 100%;
+            }
         }
     }
 }

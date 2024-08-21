@@ -215,6 +215,7 @@
         margin-bottom: -1px;
         margin-left: -1px;
     }
+    
 }
 
 .showcase-groid-item{
@@ -231,6 +232,12 @@
     }
     &__thumb{
 
+    }
+    &__content{
+        @media #{$md,$xs}{
+           padding-left: 0;
+           padding-right: 0;
+         }
     }
     &__title{
         font-size: 30px;
@@ -251,5 +258,11 @@
     margin: 0 -100px;
     @media #{$xl}{
         margin: 0 -250px;
+     }
+     @media #{$lg}{
+        margin: 0 -200px;
+     }
+     @media #{$md,$xs}{
+        margin: 0px;
      }
 }

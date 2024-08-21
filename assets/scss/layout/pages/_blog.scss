@@ -61,6 +61,9 @@
         @media #{$lg}{
             font-size: 27px;
         }
+        @media #{$md}{
+            font-size: 27px;
+        }
     }
     &__meta{
         display: flex;

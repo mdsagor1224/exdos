@@ -234,6 +234,15 @@
             @media #{$xxlm}{
                 padding-left: 50px;
             } 
+            & p{
+                @media #{$md}{
+                    width: 60%;
+                    & br{
+                        display: none;
+                    }
+                }
+                
+            }
         }
     }
     &-shape-4{
@@ -349,6 +358,18 @@
     left: -100px;
     background: #FFE6CE;
     border-radius: 100%;
+    @media #{$lg}{
+        height: 400px;
+        width:400px;
+     }
+     @media #{$md}{
+        height: 300px;
+        width:300px;
+     }
+     @media #{$xs}{
+        height: 250px;
+        width:250px;
+     }
 }
 
 .tp-el-shape{
@@ -358,6 +379,15 @@
         width: 95%;
         @media #{$xl}{
             width: 79%;
+         }
+         @media #{$lg}{
+            width:60%;
+         }
+         @media #{$md}{
+            width:55%;
+         }
+         @media #{$xs}{
+            width:55%;
          }
     }
     &-5{

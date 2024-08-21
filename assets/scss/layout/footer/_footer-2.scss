@@ -103,9 +103,15 @@
 .tp-footer-4-col{
     &-2{
         padding-left: 50px;
+        @media #{$md,$xs}{
+            padding-left: 0px;
+        }
     }
     &-3{
         padding-left: 50px;
+        @media #{$md,$xs}{
+            padding-left: 0px;
+        }
     }
 }
 

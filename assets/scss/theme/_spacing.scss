@@ -72,6 +72,9 @@
     @media #{$xl}{
         margin: 0px;
      }
+     @media #{$xl,$lg,$md,$xs}{
+        margin: 0px;
+    }
 }
 .plr-100{
     padding-left: 100px;

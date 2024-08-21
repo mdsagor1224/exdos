@@ -28,6 +28,9 @@
         @media #{$xl}{
             font-size: 26px;
         }
+        @media #{$lg}{
+            font-size: 26px;
+         }
     }
     &__text{
         & p{
@@ -113,6 +116,9 @@
 .tp-services-bg-area{
     background-color: #D6F0FF;
     border-radius: 140px;
+    @media #{$md,$xs}{
+        border-radius: 0px;
+      }
 }
 
 .tp-service-tab{

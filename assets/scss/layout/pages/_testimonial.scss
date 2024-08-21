@@ -2,6 +2,14 @@
 
 
 .tp-testimonial{
+    &-item{
+        &.pl-60{
+            @media #{$md,$xs}{
+                padding-left: 0;
+                padding-right: 0;
+             } 
+        }
+    }
     &-desc{
         font-size: 100px;
         @media #{$xl}{
@@ -292,4 +300,11 @@
     line-height: 70px;
     margin-left: 15px;
     border-radius: 100%;
+}
+.tp-testimonial-area{
+    & .br-140{
+        @media #{$xs}{
+            border-radius: 0;
+         }
+    }
 }
