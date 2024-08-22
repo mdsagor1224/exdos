@@ -11,5 +11,8 @@
         padding: 35px 30px;
         font-family: var(--tp-font-heading);
         border-radius: 20px;
+        @media #{$lg}{
+            font-size: 25px;
+        }
     }
 }

@@ -11,7 +11,7 @@
         } 
     }
     @media #{$xl}{
-        padding-left: 70px;
+        padding-left: 0px;
     }
     &-space{
         @media #{$xs}{
@@ -393,10 +393,27 @@
     &-5{
         & img{
             width: 98%;
+            @media #{$xxlm}{
+                width:88%;
+             }
+             @media #{$xl}{
+                width:78%;
+             }
+             @media #{$lg}{
+                width:50%;
+             }
+             @media #{$md}{
+                width:35%;
+             }
         }
     }
 }
-
+.tp-hero-content-5{
+    padding-right: 70px;
+    @media #{$xl}{
+        padding-right: 44px;
+     }
+}
 .hero-social-4{
     position: absolute;
     display: flex;
@@ -420,10 +437,22 @@
     &-1{
         left: 65px;
         top: 270px;
+        @media #{$xl}{
+            top: 170px;
+        }
+        @media #{$lg}{
+            top: 150px;
+        }
+        @media #{$md}{
+            top: 150px;
+        }
     }
     &-2{
         left: 40%;
         top: 177px;
+        @media #{$md}{
+            left: 70%;
+        }
     }
     &-3{
         left: 46%;

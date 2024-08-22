@@ -267,6 +267,12 @@
 }
 .tp-test-slider-space{
     margin-right: -445px;
+    @media #{$lg}{
+        margin-right: -200px;
+    }
+    @media #{$md,$xs}{
+        margin-right: -0px;
+    }
 }
 .tptest{
     background: #fff;

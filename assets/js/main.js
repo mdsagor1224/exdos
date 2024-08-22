@@ -99,6 +99,20 @@
             nextEl: ".tp-review-button-next",
             prevEl: ".tp-review-button-prev",
         },
+        breakpoints:{
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            992: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 4,
+            },
+        }
     });
 
  // testimonial with thumb Slider

@@ -16,7 +16,7 @@
 
     <!-- header start -->
     <header>
-        <div class="tp-header-area tp-transparent-header pl-100 pr-100 tp-header-border">
+        <div class="tp-header-area tp-header-space-5 tp-transparent-header pl-100 pr-100 tp-header-border">
             <div class="container-fluid p-0">
                 <div class="row gx-0 align-items-center">
                     <div class="col-xl-2 col-lg-2 col-md-4 col-6">
@@ -24,11 +24,11 @@
                            <a href="index.html"> <img src="assets/img/logo/logo-black.png" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-6">
+                    <div class="col-xl-8 col-lg-8 d-none d-xl-block">
                         <div class="tp-header-box text-center">
 
-                            <div class="tp-main-menu tp-main-menu-black d-none d-xl-block">
-                                <nav>
+                            <div class="tp-main-menu tp-main-menu-black">
+                                <nav class="tp-mobile-menu-active">
                                     <ul>
                                         <li>
                                             <a href="#">Home</a>
@@ -59,7 +59,6 @@
                                         <li><a href="#">Portfolio</a></li>
                                         <li><a href="#">Pages</a></li>
                                         <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -69,7 +68,7 @@
                         
                     </div>
                     
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-6">
                         <div class="tp-header-right tp-header-right-black d-flex justify-content-end flex-wrap align-items-center">
                             <div class="tp-header-search d-none d-md-flex">
                                 <button class="d-flex align-items-center">
@@ -79,7 +78,7 @@
                             <span class="tp-header-sep-vr"></span>
 
                             <div class="tp-header-bar">
-                                <button>
+                                <button class="tp-offcanvas-toogle">
                                     <i class="flaticon-menu"></i>
                                     </button>
                             </div>
@@ -90,6 +89,53 @@
         </div>
     </header>
     <!-- header end -->
+
+    <div class="tp-offcanvas">
+        <div class="tp-offcanvas-wrapper">
+            <div class="tp-offcanvas-header d-flex justify-content-between align-items-center mb-90">
+                <div class="tp-offcanvas-logo">
+                    <a href="#"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                </div>
+                <div class="tp-offcanvas-close">
+                   <button class="tp-offcanvas-close-toggle"><i class="fal fa-times"></i></button>
+                </div>
+            </div>
+
+            <div class="tp-offcanvas-menu d-xl-none mb-40">
+                <nav></nav>
+            </div>
+
+            <div class="tp-offcanvas-content mb-40 d-none d-xl-block">
+                <h2 class="tp-offcanvas-title">Hello There</h2>
+                <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Nihil, rerum.</p>
+            </div>
+
+            <div class="tp-offcanvas-gallery mb-40">
+                
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-01.png"><img src="assets/img/projects/showcase-thumb-01.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-02.png"><img src="assets/img/projects/showcase-thumb-02.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-03.png"><img src="assets/img/projects/showcase-thumb-03.png" alt=""></a>
+                <a class="popup-image" href="assets/img/projects/showcase-thumb-04.png"><img src="assets/img/projects/showcase-thumb-04.png" alt=""></a>
+            </div>
+
+            <div class="tp-offcanvas-info mb-40">
+                <h3 class="tp-offcanvas-sm-title">Contact Us</h3>
+                <span><a href="#">+57 9954 6476</a></span>
+                <span><a href="#">hello@exdos.com</a></span>
+                <span><a href="#">Bhemeara,Kushtia</a></span>
+            </div>
+ 
+            <div class="tp-offcanvas-social mb-40">
+                <h3 class="tp-offcanvas-sm-title">Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+             </div>
+
+        </div>
+    </div>
+    <div class="tp-offcanvas-overlay"></div>
 
     <main>
         <!-- tp-hero-area-start -->
@@ -110,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="hero-social-4">
+            <div class="hero-social-4 d-none d-xxl-block">
                 <span>Follow Us -</span>
                 <a href="#">Fb</a> <span>/</span>
                 <a href="#">Tw</a><span>/</span>
@@ -120,7 +166,7 @@
            
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
+                    <div class="col-xl-7 col-lg-8">
                         <div class="tp-hero-wrapper">
                            
                             <div class="tp-hero tp-hero-black p-relative z-index-11">
@@ -129,7 +175,7 @@
                                         studio firm
                                         from usa</h1>
                                 </div>
-                                <p>Life you under itself greater. Land the fill make so land waters fly beast <br> and stars don't void first medal score</p>
+                                <p class="tp-hero-content-5">Life you under itself greater. Land the fill make so land waters fly beast <br> and stars don't void first medal score</p>
                                 
                                 <div class="tp-hero-btn-box mt-45 d-flex">
                                     <div class="tp-hero-btn mr-30">
@@ -181,14 +227,14 @@
          </section>
 
         <!-- About section start -->
-        <section class="tp-about-area  pt-120 pb-120 p-relative p-relative" style="background-image: url(assets/img/bg/about-5-bg.png);">
+        <section class="tp-about-area tp-about-fact-right-area pt-120 pb-120 p-relative p-relative" style="background-image: url(assets/img/bg/about-5-bg.png);">
             <div class="tp-about-bg"></div>
             <div class="container p-relative z-index-11">
                 <div class="row">
                     <div class="col-xl-5">
                         <div class="tp-section-title-wrapper">
                             <span class="tp-section-subtitle tp-upper mb-10"><i class="sub-dot-color"></i>get service now</span>
-                            <h2 class="tp-section-title tp-upper mb-20">exceptional
+                            <h2 class="tp-section-title tp-section-title-45 tp-upper mb-20">exceptional
                                 business need
                                 creative &
                                 unique design</h2>
@@ -208,7 +254,7 @@
             <div class="tp-about-box-right">
                 <div class="tp-about-fact-box pl-50 pr-50">
                     <div class="row g-0">
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="tpfact tpfact-2 d-flex align-items-center mb-40">
                                 <div class="tpfact__icon tpfact__icon-2 mr-25 pr-25">
                                    <span><i class="flaticon-customer-feedback"></i></span>
@@ -221,7 +267,7 @@
                             </div>
                         </div>
     
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="tpfact tpfact-2 d-flex align-items-center mb-40">
                                 <div class="tpfact__icon tpfact__icon-2 mr-25 pr-25">
                                    <span><i class="flaticon-solution"></i></span>
@@ -249,9 +295,9 @@
                     <h2 class="tp-section-title tp-upper mb-20">solve problems</h2>
                 </div>
 
-                <div class="row gx-0">
-                    <div class="col-xl-3">
-                        <div class="tpprocess">
+                <div class="row gx-xl-0">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="tpprocess mb-30">
                             <div class="tpprocess__angle text-center mb-80">
                                 <img src="assets/img/icon/process-down.png" alt="">
                             </div>
@@ -260,7 +306,7 @@
                                 <div class="tpprocess__count">
                                     01
                                 </div>
-                                <div class="tpprocess__shape p-absolute">
+                                <div class="tpprocess__shape p-absolute d-none d-xxl-block">
                                     <img src="assets/img/shape/process-1.png" alt="">
                                 </div>
                             </div>
@@ -271,8 +317,8 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3">
-                        <div class="tpprocess tpprocess-2">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="tpprocess tpprocess-2 mb-30">
                             
                             <div class="tpprocess__content mb-50">
                                 <h3 class="tpprocess__title tp-fs-30">Plan Concept</h3>
@@ -283,7 +329,7 @@
                                 <div class="tpprocess__count">
                                     02
                                 </div>
-                                <div class="tpprocess__shape p-absolute">
+                                <div class="tpprocess__shape p-absolute d-none d-xxl-block">
                                     <img src="assets/img/shape/process-2.png" alt="">
                                 </div>
                             </div>
@@ -293,8 +339,8 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3">
-                        <div class="tpprocess tpprocess-3">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="tpprocess tpprocess-3 mb-30">
                             <div class="tpprocess__angle text-center mb-80">
                                 <img src="assets/img/icon/process-up.png" alt="">
                             </div>
@@ -303,7 +349,7 @@
                                 <div class="tpprocess__count">
                                     03
                                 </div>
-                                <div class="tpprocess__shape tpprocess__shape-3 p-absolute">
+                                <div class="tpprocess__shape tpprocess__shape-3 p-absolute d-none d-xxl-block">
                                     <img src="assets/img/shape/process-3.png" alt="">
                                 </div>
                             </div>
@@ -314,8 +360,8 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3">
-                        <div class="tpprocess tpprocess-4">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="tpprocess tpprocess-4" mb-30>
                             <div class="tpprocess__content mb-50">
                                 <h3 class="tpprocess__title tp-fs-30">Final Project</h3>
                                 <p>Said moved fruit are not unto forth years the brought kind herbs for under fort with may creepeth to delisa.</p>
@@ -325,7 +371,7 @@
                                 <div class="tpprocess__count">
                                     04
                                 </div>
-                                <div class="tpprocess__shape p-absolute">
+                                <div class="tpprocess__shape p-absolute d-none d-xxl-block">
                                     <img src="assets/img/shape/process-4.png" alt="">
                                 </div>
                             </div>
@@ -343,7 +389,7 @@
         <section class="tp-services-area pt-130 pb-130 plr-100" data-bg-color="#0A0E1A">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-9">
+                    <div class="col-xl-11 col-lg-9">
                         <div class="tp-section-title-wrapper mb-50">
                             <span class="tp-section-subtitle tp-section-subtitle-white tp-upper mb-10"><i class="sub-dot-color"></i>popular services</span>
                             <h2 class="tp-section-title tp-section-title-white tp-upper mb-20">Luxurious Designs for the <br>
@@ -353,7 +399,7 @@
                 </div>
 
                 <div class="row justify-content-end">
-                    <div class="col-lg-6">
+                    <div class="col-xxl-6 col-xl-8 col-lg-6">
                         <div class="tp-section-title-wrapper mb-50">
                             <p data-color="#B1B4BA">Per ipsum ultrices sollicitud platea facilisi semper aliquam up tacits senectus cursus for vivamu volutpat penatibus fringilla porttitor do magna purus massa duis dapibus over the fascinating scelerisqu</p>
                          </div>
@@ -401,7 +447,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="tp-service-tab-wraper pl-40">
+                        <div class="tp-service-tab-wrapper pl-40">
                             <ul class="tp-service-tab" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                   <div class="nav-links active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
@@ -479,7 +525,7 @@
 
                 <div class="row gx-0">
                     <div class="col-lg-4">
-                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border">
+                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border mb-0">
                             <img src="assets/img/projects/showcase-01.png" alt="">
                         </div>
                     </div>
@@ -508,7 +554,7 @@
 
                 <div class="row gx-0">
                     <div class="col-lg-4">
-                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border">
+                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border mb-0">
                             <img src="assets/img/projects/showcase-02.png" alt="">
                         </div>
                     </div>
@@ -537,7 +583,7 @@
 
                 <div class="row gx-0">
                     <div class="col-lg-4">
-                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border">
+                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border mb-0">
                             <img src="assets/img/projects/showcase-03.png" alt="">
                         </div>
                     </div>
@@ -566,12 +612,12 @@
 
                 <div class="row gx-0">
                     <div class="col-lg-4">
-                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border">
+                        <div class="tpshowcase__logo d-flex align-items-center justify-content-center tpshowcase__border mb-0">
                             <img src="assets/img/projects/showcase-04.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="tpshowcase__content-box tpshowcase__border">
+                        <div class="tpshowcase__content-box tpshowcase__border mb-0">
                             <div class="row gx-0">
                                 <div class="col-lg-6">
                                     <div class="tpshowcase pt-20">
@@ -589,7 +635,6 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -604,14 +649,14 @@
         <section class="tp-testimonial-area p-relative pt-130 pb-130 fix" style="background-image: url(assets/img/testimonial/h-5-test-bg.jpg);">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-8">
                         <div class="tp-section-title-wrapper mb-60">
                             <span class="tp-section-subtitle tp-upper mb-10"><i class="sub-dot-color"></i>our testimonial</span>
                             <h2 class="tp-section-title tp-upper mb-20">happy customer says <br>
                                 about service</h2>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-4">
                         <div class="tp-review-buttons d-flex align-items-center justify-content-end mb-60">
                             <div class="tp-review-button-prev tp-review-button tp-rot-180">
                                 <i class="flaticon-right-arrow"></i>
@@ -873,25 +918,25 @@
         <footer class="tp-theme-black-bg p-relative" data-bg-color="#1A1A1A">
             <div class="container">
                 <div class="row gx-2 pt-110">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="tp-footer-social-box mb-30">
                             <a href="#">#facebook</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="tp-footer-social-box mb-30">
                             <a href="#">#intstagram</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="tp-footer-social-box mb-30">
                             <a href="#">#twetter</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="tp-footer-social-box mb-30">
                             <a href="#">#behance</a>
                         </div>
@@ -902,13 +947,13 @@
                 <div class="tp-footer-widget-area pt-80 pb-50">
                     <div class="row">
 
-                        <div class="col-lg-5">
+                        <div class="col-lg-12 col-md-12">
                             <h2 class="tp-section-title tp-section-title-white tp-upper mb-20">Have Design
                                 query? send us
                                 message</h2>
                         </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="tp-footer-widget tp-footer-3-col-1 mb-50 pl-40">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="tp-footer-widget tp-footer-5-col-2 mb-50">
                                 <h3 class="tp-footer-widget-title mb-20">Contact Info</h3>
                                  <div class="tp-footer-contact">
                                     <div class="tp-footer-contact-item mb-20">
@@ -926,8 +971,8 @@
                         
     
 
-                            <div class="col-lg-3 col-md-4">
-                                <div class="tp-footer-widget tp-footer-4-col-4 mb-50">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="tp-footer-widget tp-footer-5-col-3 mb-50">
                                     <h3 class="tp-footer-widget-title mb-20">
                                         Newsletter
                                     </h3>
@@ -959,13 +1004,13 @@
     
                 <div class="tp-footer-copyright-area p-relative z-index-1 pt-40 pb-10">
                     <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-4">
+                        <div class="col-xl-6 col-lg-6">
                             <div class="tp-footer-copyright text-md-center text-lg-start mb-30">
                                 <p> Copyright © 2023 | Alright reserved by <a data-color="#FF3838" href="#">Hr Design</a></p>
                             </div>
                         </div>
                         
-                        <div class="col-xl-6 col-lg-4">
+                        <div class="col-xl-6 col-lg-6">
                             <div class="tp-footer-menu text-md-center text-lg-end mb-30">
                                 <ul>
                                     <li><a href="#">Career</a></li>

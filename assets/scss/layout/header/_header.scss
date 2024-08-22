@@ -59,6 +59,14 @@
             padding: 18px 15px;
         }
     }
+    &-5{
+        @media #{$lg,$md}{
+            padding: 18px 30px;
+        }
+        @media #{$xs}{
+            padding: 18px 15px;
+        }
+    }
 }
 
 .tp-main-menu{

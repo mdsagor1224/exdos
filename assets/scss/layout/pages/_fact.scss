@@ -46,6 +46,9 @@
                     position: relative;
                     & span{
                         color: var(--tp-theme-orange);
+                        @media #{$xl}{
+                            font-size: 80px;
+                        }
                     }
                     &:after{
                         position: absolute;
@@ -55,17 +58,33 @@
                         background-color: #d9d9d9;
                         right: 0;
                         top: 11px;
+                        @media #{$xl}{
+                            top: 0;
+                            height: 80px;
+                        }
                     }
                 }
             }
             &__text{
                 & span{
                     color: #0A0E1A;
+                    @media #{$xl}{
+                        font-size: 50px;
+                    }
+                    @media #{$md}{
+                        font-size: 50px;
+                    }
                 }
             }
             &__title{
-                color: #0A0E1A;
+                color: #57595c;
                 opacity: 1;
+                @media #{$xl}{
+                    font-size: 16px;
+                }
+                @media #{$md}{
+                    font-size: 20px;
+                }
             }
         }
     }

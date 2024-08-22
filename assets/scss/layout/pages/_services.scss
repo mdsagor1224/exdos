@@ -143,11 +143,26 @@
     }
     &__title{
         font-size: 100px;
+        @media #{$xl}{
+           font-size: 46px;
+          }
+        @media #{$lg}{
+        font-size: 30px;
+        }
+        @media #{$md}{
+            font-size: 60px;
+        }
     }
     &__content{
          & p{
             color: #B1B4BA;
             margin: 0;
          }
+    }
+}
+
+.tp-service-tab-wrapper{
+    @media #{$md}{
+        padding-left: 0;
     }
 }

@@ -79,9 +79,25 @@
 .plr-100{
     padding-left: 100px;
     padding-right: 100px;
+    @media #{$xl}{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    @media #{$lg,$md,$xs}{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
 }
 
 .plr-85{
     padding-left: 85px;
     padding-right: 85px;
+    @media #{$xl}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @media #{$lg,$md,$xs}{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 }

@@ -194,8 +194,16 @@
     right: 0;
     top: 0;
     background: #fff;
+    @media #{$lg,$md,$xs}{
+        position: static;
+        width: 100%;
+        margin-top: 45px;
+        padding-top: 45px;
+      }
 }
 
-.tp-about-fact-box{
-    
+.tp-about-fact-right-area{
+    @media #{$lg,$md,$xs}{
+        padding-bottom: 0;
+      }
 }
