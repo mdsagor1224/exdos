@@ -45,6 +45,7 @@
     width: calc(50% - 65px);
     background-size: cover;
     border-radius: 0 20px 20px 0;
+    top: 0;
     @media #{$md, $xs}{
         position: static;
         height: 500px;
@@ -54,6 +55,11 @@
     }
     @media #{$xs}{
         height: 300px;
+    }
+    &-right{
+        left: auto;
+        right: 0;
+        border-radius:0;
     }
     
 }

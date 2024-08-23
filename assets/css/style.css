@@ -8085,6 +8085,7 @@ img {
   width: calc(50% - 65px);
   background-size: cover;
   border-radius: 0 20px 20px 0;
+  top: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tpfaq-bg {
@@ -8099,6 +8100,11 @@ img {
   .tpfaq-bg {
     height: 300px;
   }
+}
+.tpfaq-bg-right {
+  left: auto;
+  right: 0;
+  border-radius: 0;
 }
 
 .tp-faq-button {
