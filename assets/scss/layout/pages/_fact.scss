@@ -95,3 +95,10 @@
        width: 50%;
     }
 }
+
+.tp-about-fact-box{
+    @media #{$xs}{
+       padding-left: 15px;
+       padding-right: 15px;
+     }
+}

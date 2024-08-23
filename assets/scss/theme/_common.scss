@@ -86,6 +86,9 @@ img{
 	}
 	&-30{
 		font-size: 30px;
+		@media #{$xs}{
+			font-size: 22px;
+		}
 	}
 	&-40{
 		font-size: 40px;

@@ -152,6 +152,9 @@
         @media #{$md}{
             font-size: 60px;
         }
+        @media #{$xs}{
+            font-size: 30px;
+        }
     }
     &__content{
          & p{
@@ -163,6 +166,9 @@
 
 .tp-service-tab-wrapper{
     @media #{$md}{
+        padding-left: 0;
+    }
+    @media #{$xs}{
         padding-left: 0;
     }
 }

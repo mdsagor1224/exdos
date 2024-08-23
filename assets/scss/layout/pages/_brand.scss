@@ -39,6 +39,10 @@
         display: inline-block;
         @include transform(translateY(19px));
         padding: 0 30px;
+        @media #{$xs}{
+            font-size: 22px;
+            transform: translateY(0);
+        }
     }
 }
 

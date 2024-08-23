@@ -70,6 +70,10 @@
         }
         &-40{
             font-size: 40px;
+            @media #{$xs}{
+                font-size: 22px;
+            }
+           
         }
     }
     &-title-content-white{

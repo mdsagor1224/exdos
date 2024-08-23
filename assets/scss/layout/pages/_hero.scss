@@ -405,6 +405,9 @@
              @media #{$md}{
                 width:35%;
              }
+             @media #{$xs}{
+                width:35%;
+             }
         }
     }
 }
@@ -412,6 +415,9 @@
     padding-right: 70px;
     @media #{$xl}{
         padding-right: 44px;
+     }
+     @media #{$xs}{
+        padding-right: 0px;
      }
 }
 .hero-social-4{
