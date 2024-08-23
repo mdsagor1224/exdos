@@ -95,6 +95,11 @@
             z-index: 2;
         }
     }
+    &-feature-icon{
+        & span{
+            font-size: 87px;
+        }
+    }
 }
 .tp-about-video{
     

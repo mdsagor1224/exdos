@@ -4976,6 +4976,45 @@ img {
   visibility: visible;
 }
 
+.tp-breadcrumb-space {
+  padding-top: 235px;
+  padding-bottom: 140px;
+}
+.tp-breadcrumb-title {
+  font-size: 70px;
+}
+.tp-breadcrumb-list span {
+  margin: 0 2px;
+  display: inline-block;
+  color: #B1B4BA;
+}
+.tp-breadcrumb-list span.active a {
+  color: var(--tp-theme-color-2);
+}
+.tp-breadcrumb-list span a {
+  color: #B1B4BA;
+  font-size: 20px;
+}
+.tp-breadcrumb-list span.dvir {
+  margin: 0 2px;
+}
+
+.tp-breadcrumb-shape-1 {
+  left: 10%;
+  top: 25%;
+  z-index: 2;
+}
+.tp-breadcrumb-shape-2 {
+  right: 34%;
+  top: 25%;
+  z-index: 2;
+}
+.tp-breadcrumb-shape-3 {
+  right: 15%;
+  top: 50%;
+  z-index: 2;
+}
+
 .footer-sep {
   background-color: #fff;
   opacity: 0.15;
@@ -6391,6 +6430,9 @@ img {
 .tp-about-thumb > img {
   position: relative;
   z-index: 2;
+}
+.tp-about-feature-icon span {
+  font-size: 87px;
 }
 
 .tp-about-2-shape-2 {

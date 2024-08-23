@@ -1,0 +1,49 @@
+@use '../utils' as *;
+
+.tp-breadcrumb{
+    &-space{
+        padding-top: 235px;
+        padding-bottom: 140px;
+    }
+    &-title{
+        font-size: 70px;
+    }
+    &-list{
+        & span{
+            margin: 0 2px;
+            display: inline-block;
+            color: #B1B4BA;
+            &.active{
+                & a{
+                    color: var(--tp-theme-color-2);
+                }
+            }
+            & a{
+                color: #B1B4BA;
+                font-size: 20px;
+            }
+            &.dvir{
+                margin: 0 2px;
+            }
+        }
+    }
+
+    
+}
+.tp-breadcrumb-shape{
+    &-1{
+        left: 10%;
+        top: 25%;
+        z-index: 2;
+    }
+    &-2{
+        right: 34%;
+        top: 25%;
+        z-index: 2;
+    }
+    &-3{
+        right: 15%;
+        top: 50%;
+        z-index: 2;
+    }
+}
